@@ -55,12 +55,15 @@
 <!-- This is a great example of passing props from the `data() { return { PROPS }}` area further down in this file.-->
 <!-- You can define props there to pass to any component. -->
 <!-- However, you must prefix every component used this way with a colon. -->
+<div class="v-dots-scroll-spacer">
+  <div class="v-dots-scroll-target" id="stats"></div>
+</div>
 <statWrapper
   :stats="stats_1"
 />
 
 <div class="v-dots-scroll-spacer">
-  <div class="v-dots-scroll-target" id="one"></div>
+  <div class="v-dots-scroll-target" id="why"></div>
 </div>
 <grid-panel
   link_url= 'https://admissions.uiowa.edu/academics/academics'
@@ -75,9 +78,7 @@
   grid_panel_content= '<p>The University of Iowa blends big-school opportunities with close, personal support to help you excel. We remove the barriers between arts and science, between students and faculty—but most of all, between you and anything you’d like to explore.</p>'
   grid_panel_content_2= '<p>How many universities have both a state-of-the-art children’s hospital and a 3,883-pipe Klais organ? Or helped build the Voyager I satellite and the very first creative writing degree program? Just one: Iowa.</p>'
 />
-<div class="v-dots-scroll-spacer">
-  <div class="v-dots-scroll-target" id="two"></div>
-</div>
+
 <grid-panel
   link_url= 'https://admissions.uiowa.edu/academics/academics'
   image= 'images/viewbook/sections/0315.jpg'
@@ -91,9 +92,7 @@
   grid_panel_content= '<p>The University of Iowa blends big-school opportunities with close, personal support to help you excel. We remove the barriers between arts and science, between students and faculty—but most of all, between you and anything you’d like to explore.</p>'
   grid_panel_content_2= '<p>How many universities have both a state-of-the-art children’s hospital and a 3,883-pipe Klais organ? Or helped build the Voyager I satellite and the very first creative writing degree program? Just one: Iowa.</p>'
 />
-<div class="v-dots-scroll-spacer">
-  <div class="v-dots-scroll-target" id="three"></div>
-</div>
+
 <grid-panel
   link_url= 'https://admissions.uiowa.edu/academics/academics'
   image= 'images/viewbook/sections/0315.jpg'
@@ -107,9 +106,7 @@
   grid_panel_content= '<p>The University of Iowa blends big-school opportunities with close, personal support to help you excel. We remove the barriers between arts and science, between students and faculty—but most of all, between you and anything you’d like to explore.</p>'
   grid_panel_content_2= '<p>How many universities have both a state-of-the-art children’s hospital and a 3,883-pipe Klais organ? Or helped build the Voyager I satellite and the very first creative writing degree program? Just one: Iowa.</p>'
 />
-<div class="v-dots-scroll-spacer">
-  <div class="v-dots-scroll-target" id="four"></div>
-</div>
+
 <grid-panel
   link_url= 'https://admissions.uiowa.edu/academics/academics'
   image= 'images/viewbook/sections/0315.jpg'
@@ -123,9 +120,7 @@
   grid_panel_content= '<p>The University of Iowa blends big-school opportunities with close, personal support to help you excel. We remove the barriers between arts and science, between students and faculty—but most of all, between you and anything you’d like to explore.</p>'
   grid_panel_content_2= '<p>How many universities have both a state-of-the-art children’s hospital and a 3,883-pipe Klais organ? Or helped build the Voyager I satellite and the very first creative writing degree program? Just one: Iowa.</p>'
 />
-<div class="v-dots-scroll-spacer">
-  <div class="v-dots-scroll-target" id="five"></div>
-</div>
+
 <grid-panel
   link_url= 'https://admissions.uiowa.edu/academics/academics'
   image= 'images/viewbook/sections/0315.jpg'
@@ -139,6 +134,10 @@
   grid_panel_content= '<p>The University of Iowa blends big-school opportunities with close, personal support to help you excel. We remove the barriers between arts and science, between students and faculty—but most of all, between you and anything you’d like to explore.</p>'
   grid_panel_content_2= '<p>How many universities have both a state-of-the-art children’s hospital and a 3,883-pipe Klais organ? Or helped build the Voyager I satellite and the very first creative writing degree program? Just one: Iowa.</p>'
 />
+
+<div class="v-dots-scroll-spacer">
+  <div class="v-dots-scroll-target" id="what"></div>
+</div>
 
 <div class="grid--threecol--33-34-33">
   <div class="list-container">
@@ -265,24 +264,16 @@ export default {
           section_id: 'hero-banner'
         },
         {
-          section_title: 'Academic Opportunities',
-          section_id: 'one'
+          section_title: 'SUCCESS BY THE NUMBERS',
+          section_id: 'stats'
         },
         {
-          section_title: 'Two',
-          section_id: 'two'
+          section_title: 'WHY CHOOSE IOWA LAW?',
+          section_id: 'why'
         },
         {
-          section_title: 'Three',
-          section_id: 'three'
-        },
-        {
-          section_title: 'Four',
-          section_id: 'four'
-        },
-        {
-          section_title: 'Five',
-          section_id: 'five'
+          section_title: 'WHAT ARE HAWKEYES SAYING?',
+          section_id: 'what'
         },
       ],
       contact_info: '<p>Iowa City, Iowa 52242<br><a href=""><i class="fas fa-phone"></i> 123-456-7890</a><br /></p>',
