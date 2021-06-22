@@ -144,14 +144,23 @@
     <Card 
       image="images/viewbook/sections/0315.jpg"
       title="Card 01"
+      content="
+        Lorem Impsum sit dolor amet
+      "
     />
     <Card 
       image="images/viewbook/sections/0315.jpg"
       title="Card 02"
+      content="
+        Lorem Impsum sit dolor amet
+      "
     />
     <Card 
       image="images/viewbook/sections/0315.jpg"
       title="Card 03"
+      content="
+        Lorem Impsum sit dolor amet
+      "
     />
   </div>
 </div>
