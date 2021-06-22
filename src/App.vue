@@ -140,6 +140,20 @@
   grid_panel_content_2= '<p>How many universities have both a state-of-the-art children’s hospital and a 3,883-pipe Klais organ? Or helped build the Voyager I satellite and the very first creative writing degree program? Just one: Iowa.</p>'
 />
 
+<div class="grid--threecol--33-34-33">
+  <div class="list-container">
+    <card 
+      image="images/viewbook/sections/0315.jpg"
+    />
+    <card 
+      image="images/viewbook/sections/0315.jpg"
+    />
+    <card 
+      image="images/viewbook/sections/0315.jpg"
+    />
+  </div>
+</div>
+
 
 
 <footerSection
@@ -154,6 +168,7 @@
 // You must also register them in the `components` section of the `export default {}` area below.
 // For ease of use, all currently usable components are imported here.
 import Banner from './components/Banner.vue';
+import Card from './components/Card.vue';
 import Stat from './components/Stat.vue';
 import statWrapper from './components/statWrapper.vue';
 import IowaBar from './components/IowaBar.vue';
@@ -173,6 +188,7 @@ export default {
   // In addition to importing all components from their files, you must register them here for them to work.
   components: {
     Banner,
+    Card,
     Stat,
     statWrapper,
     IowaBar,
