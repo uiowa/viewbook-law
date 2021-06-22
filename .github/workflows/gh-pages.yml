@@ -72,16 +72,16 @@ jobs:
       - name: Main branch preparations
         if: github.ref == format('refs/heads/{0}', env.MAIN_BRANCH)
         run: |
-          yarn build --base=/viewbook-law/
+          yarn build --base=/
           cp -a $GITHUB_WORKSPACE/dist/* $GITHUB_WORKSPACE/gh-pages
-
+          
       # If develop branch:
       #   - Remove existing 'latest' directory, if it exists.
       #   - Move build into 'latest' directory.
       - name: Develop branch preparations
         if: github.ref == format('refs/heads/{0}', env.DEVELOP_BRANCH)
         run: |
-          yarn build --base=/viewbook-law/latest/
+          yarn build --base=/latest/
           rm -rf $GITHUB_WORKSPACE/gh-pages/latest
           mv $GITHUB_WORKSPACE/dist $GITHUB_WORKSPACE/gh-pages/latest
 
