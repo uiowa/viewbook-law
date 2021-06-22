@@ -41,14 +41,14 @@
 <!-- Anything that will be used as a String in the component can be written without a colon before it. -->
 <!-- Anything that does not (eg. Boolean, int, float) must have a colon in front of it. -->
 <!-- This tells Vue that it should evaluate it like a javascript variable. -->
-<stat
+<!-- <stat
   headline="34"
   headline_prefix="#"
   headline_suffix=""
   stat_description="BEST PUBLIC UNIVERSITY BY U.S. NEWS & WORLD REPORT"
   stat_content="Among the top 2% of universities worldwide."
   :stat_vertical="true"
-/>
+/> -->
 
 <!-- This is a great example of passing props from the `data() { return { PROPS }}` area further down in this file.-->
 <!-- You can define props there to pass to any component. -->
@@ -58,7 +58,71 @@
 />
 
 <div class="v-dots-scroll-spacer">
-  <div class="v-dots-scroll-target" id="academic-opportunities"></div>
+  <div class="v-dots-scroll-target" id="one"></div>
+</div>
+<grid-panel
+  link_url= 'https://admissions.uiowa.edu/academics/academics'
+  image= 'images/viewbook/sections/0315.jpg'
+  headline= 'We Work <span>Together</span>'
+  button_text= 'View Academic Opportunities'
+  button_link= ''
+  grid_panel_type= 'grid-panel grid-panel--asymmetrical'
+  grid_panel_first_column= 'grid-panel__column-image-left'
+  grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
+  grid_content_position= 'second'
+  grid_panel_content= '<p>The University of Iowa blends big-school opportunities with close, personal support to help you excel. We remove the barriers between arts and science, between students and faculty—but most of all, between you and anything you’d like to explore.</p>'
+  grid_panel_content_2= '<p>How many universities have both a state-of-the-art children’s hospital and a 3,883-pipe Klais organ? Or helped build the Voyager I satellite and the very first creative writing degree program? Just one: Iowa.</p>'
+/>
+<div class="v-dots-scroll-spacer">
+  <div class="v-dots-scroll-target" id="two"></div>
+</div>
+<grid-panel
+  link_url= 'https://admissions.uiowa.edu/academics/academics'
+  image= 'images/viewbook/sections/0315.jpg'
+  headline= 'We Work <span>Together</span>'
+  button_text= 'View Academic Opportunities'
+  button_link= ''
+  grid_panel_type= 'grid-panel grid-panel--asymmetrical'
+  grid_panel_first_column= 'grid-panel__column-content-left grid-panel__content'
+  grid_panel_second_column= 'grid-panel__column-image-right'
+  grid_content_position= 'first'
+  grid_panel_content= '<p>The University of Iowa blends big-school opportunities with close, personal support to help you excel. We remove the barriers between arts and science, between students and faculty—but most of all, between you and anything you’d like to explore.</p>'
+  grid_panel_content_2= '<p>How many universities have both a state-of-the-art children’s hospital and a 3,883-pipe Klais organ? Or helped build the Voyager I satellite and the very first creative writing degree program? Just one: Iowa.</p>'
+/>
+<div class="v-dots-scroll-spacer">
+  <div class="v-dots-scroll-target" id="three"></div>
+</div>
+<grid-panel
+  link_url= 'https://admissions.uiowa.edu/academics/academics'
+  image= 'images/viewbook/sections/0315.jpg'
+  headline= 'We Work <span>Together</span>'
+  button_text= 'View Academic Opportunities'
+  button_link= ''
+  grid_panel_type= 'grid-panel grid-panel--asymmetrical'
+  grid_panel_first_column= 'grid-panel__column-image-left'
+  grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
+  grid_content_position= 'second'
+  grid_panel_content= '<p>The University of Iowa blends big-school opportunities with close, personal support to help you excel. We remove the barriers between arts and science, between students and faculty—but most of all, between you and anything you’d like to explore.</p>'
+  grid_panel_content_2= '<p>How many universities have both a state-of-the-art children’s hospital and a 3,883-pipe Klais organ? Or helped build the Voyager I satellite and the very first creative writing degree program? Just one: Iowa.</p>'
+/>
+<div class="v-dots-scroll-spacer">
+  <div class="v-dots-scroll-target" id="four"></div>
+</div>
+<grid-panel
+  link_url= 'https://admissions.uiowa.edu/academics/academics'
+  image= 'images/viewbook/sections/0315.jpg'
+  headline= 'We Work <span>Together</span>'
+  button_text= 'View Academic Opportunities'
+  button_link= ''
+  grid_panel_type= 'grid-panel grid-panel--asymmetrical'
+  grid_panel_first_column= 'grid-panel__column-content-left grid-panel__content'
+  grid_panel_second_column= 'grid-panel__column-image-right'
+  grid_content_position= 'first'
+  grid_panel_content= '<p>The University of Iowa blends big-school opportunities with close, personal support to help you excel. We remove the barriers between arts and science, between students and faculty—but most of all, between you and anything you’d like to explore.</p>'
+  grid_panel_content_2= '<p>How many universities have both a state-of-the-art children’s hospital and a 3,883-pipe Klais organ? Or helped build the Voyager I satellite and the very first creative writing degree program? Just one: Iowa.</p>'
+/>
+<div class="v-dots-scroll-spacer">
+  <div class="v-dots-scroll-target" id="five"></div>
 </div>
 <grid-panel
   link_url= 'https://admissions.uiowa.edu/academics/academics'
@@ -183,7 +247,23 @@ export default {
         },
         {
           section_title: 'Academic Opportunities',
-          section_id: 'academic-opportunities'
+          section_id: 'one'
+        },
+        {
+          section_title: 'Two',
+          section_id: 'two'
+        },
+        {
+          section_title: 'Three',
+          section_id: 'three'
+        },
+        {
+          section_title: 'Four',
+          section_id: 'four'
+        },
+        {
+          section_title: 'Five',
+          section_id: 'five'
         },
       ],
       contact_info: '<p>Iowa City, Iowa 52242<br><a href=""><i class="fas fa-phone"></i> 123-456-7890</a><br /></p>',
