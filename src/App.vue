@@ -5,11 +5,6 @@
   iowa_bar_classes="iowa-bar--narrow"
 />
 
-<siteName 
-  site_name="College of Law"
-  site_name_link="https://law.uiowa.edu"
-/>
-
 <!-- This is an example of a vertical dots scroll spacer, -->
 <!-- Which is what the vertical dots menu will jump to when the corresponding dot is clicked -->
 <!-- The ID of the `v-dots-scroll-target` and its corresponding `section_id` in the `sections` array should match -->
