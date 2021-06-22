@@ -45,3 +45,4 @@ https://github.com/uiowa/vuejs-site-template/blob/ad37ed9dc98658383ab26a4bd02dcd
 
 ### Common errors
 If the commands listed above for local development are not working, delete your `node_modules` folder and run `yarn install`. 
+
