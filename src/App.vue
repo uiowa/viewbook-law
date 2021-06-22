@@ -142,19 +142,20 @@
 
 <div class="grid--threecol--33-34-33">
   <div class="list-container">
-    <card 
+    <Card 
       image="images/viewbook/sections/0315.jpg"
+      title="Card 01"
     />
-    <card 
+    <Card 
       image="images/viewbook/sections/0315.jpg"
+      title="Card 02"
     />
-    <card 
+    <Card 
       image="images/viewbook/sections/0315.jpg"
+      title="Card 03"
     />
   </div>
 </div>
-
-
 
 <footerSection
   :contact_info="contact_info"
