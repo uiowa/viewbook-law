@@ -5,6 +5,11 @@
   iowa_bar_classes="iowa-bar--narrow"
 />
 
+<siteName 
+  site_name="College of Law"
+  site_name_link="https://law.uiowa.edu"
+/>
+
 <!-- This is an example of a vertical dots scroll spacer, -->
 <!-- Which is what the vertical dots menu will jump to when the corresponding dot is clicked -->
 <!-- The ID of the `v-dots-scroll-target` and its corresponding `section_id` in the `sections` array should match -->
@@ -20,7 +25,7 @@
   banner_classes=""
   banner_type="image"
   banner_overlay= "gradient-center"
-  banner_text=''
+  banner_text='<p>Ut a nisl id ante tempus hendrerit. Morbi vestibulum volutpat enim. Nullam cursus lacinia erat. Phasellus tempus. Praesent blandit laoreet nibh.</p>'
   banner_title='<span>Welcome</span> to Iowa'
   banner_title_classes='headline headline--uppercase'
 />
@@ -99,6 +104,7 @@ import Aerial from './components/Aerial.vue';
 import menuGroup from './components/menuGroup.vue';
 import footerSection from './components/footerSection.vue';
 import Modal from './components/Modal.vue';
+import SiteName from './components/siteName.vue';
 
 export default {
   name: 'App',
@@ -116,7 +122,8 @@ export default {
     Aerial,
     menuGroup,
     Modal,
-    footerSection
+    footerSection,
+    SiteName
   },
 
   // This area is where we are currently importing the set props for our components.
@@ -155,22 +162,22 @@ export default {
       menu_items: [
         {
           text: 'Apply Now',
-          url: 'https://admissions.uiowa.edu/apply/first-year-student-application-process',
+          url: 'https://law.uiowa.edu/admissions/apply-iowa-law',
           item_class: 'bttn bttn--outline bttn--tertiary bttn--transparent bttn--caps bttn--apply'
         },
         {
           text:  'Schedule a Visit',
-          url: 'https://admissions.uiowa.edu/visit-campus',
+          url: 'https://law.uiowa.edu/schedule-tour',
           item_class: 'bttn bttn--outline bttn--tertiary bttn--transparent bttn--caps bttn--visit'
         },
         {
           text: 'Contact Us',
-          url: 'https://admissions.uiowa.edu/contact-us',
+          url: 'https://law.uiowa.edu/admissions/contact-us',
           item_class: 'bttn bttn--outline bttn--tertiary bttn--transparent bttn--caps bttn--ask'
         },
         {
           text: 'Request Information',
-          url: 'https://www.maui.uiowa.edu/maui/pub/admissions/webinquiry/undergraduate.page',
+          url: 'https://fap.lsac.org/prospect.aspx?data=NjY4MQEBMTM%3D-9%2BjUP0srGUA%3D',
           item_class: 'bttn bttn--outline bttn--tertiary bttn--transparent bttn--caps bttn--connect'
         },
       ],
