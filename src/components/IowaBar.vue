@@ -5,9 +5,9 @@
         logo_id="header"
         logo_classes="logo--tab"
       />
-      <site-name 
-        site_name="College of Law"
-        site_name_link="https://law.uiowa.edu"
+      <siteName 
+        :site_name="site_name"
+        :site_name_link="site_name_link"
       />
       <!-- This is where we would print Top links -->
       <!-- This is where we would print off canvas -->
@@ -28,6 +28,12 @@ export default {
         type: String
       },
       parent_site: {
+        type: String
+      },
+      site_name: {
+        type: String
+      },
+      site_name_link: {
         type: String
       }
     },

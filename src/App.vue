@@ -3,6 +3,8 @@
 <!-- Notable example sections should have comments to help anyone new to the system understand them. -->
 <iowa-bar
   iowa_bar_classes="iowa-bar--narrow"
+  site_name="College of Law"
+  site_name_link="https://law.uiowa.edu"
 />
 
 <!-- This is an example of a vertical dots scroll spacer, -->
