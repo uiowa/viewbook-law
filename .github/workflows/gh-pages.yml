@@ -72,7 +72,7 @@ jobs:
       - name: Main branch preparations
         if: github.ref == format('refs/heads/{0}', env.MAIN_BRANCH)
         run: |
-          yarn build --base=/vuejs-site-template/
+          yarn build --base=/viewbook-law/
           cp -a $GITHUB_WORKSPACE/dist/* $GITHUB_WORKSPACE/gh-pages
 
       # If develop branch:
@@ -81,7 +81,7 @@ jobs:
       - name: Develop branch preparations
         if: github.ref == format('refs/heads/{0}', env.DEVELOP_BRANCH)
         run: |
-          yarn build --base=/vuejs-site-template/latest/
+          yarn build --base=/viewbook-law/latest/
           rm -rf $GITHUB_WORKSPACE/gh-pages/latest
           mv $GITHUB_WORKSPACE/dist $GITHUB_WORKSPACE/gh-pages/latest
 
