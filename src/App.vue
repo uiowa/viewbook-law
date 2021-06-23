@@ -141,12 +141,17 @@
 
 <div class="grid--threecol--33-34-33">
   <div class="list-container">
-    <Card 
+    <Card
       image="images/viewbook/sections/0315.jpg"
       title="Card 01"
       content="
         Lorem Impsum sit dolor amet
       "
+      class="card--stacked media--border card--enclosed bg--white card--centered-left card--alignment-left"
+      media_class="card__media--medium card__media media--circle card__media"
+      headline_class="h3 headline headline--uppercase"
+      link_url="https://google.com"
+      link_title="LSKDJFLSKDFJKLJ"
     />
     <Card 
       image="images/viewbook/sections/0315.jpg"
@@ -154,6 +159,9 @@
       content="
         Lorem Impsum sit dolor amet
       "
+      class="card--stacked media--border card--enclosed bg--white card--centered-left card--alignment-left"
+      media_class="card__media--medium card__media media--circle card__media"
+      headline_class="h3 headline headline--uppercase"
     />
     <Card 
       image="images/viewbook/sections/0315.jpg"
@@ -161,6 +169,9 @@
       content="
         Lorem Impsum sit dolor amet
       "
+      class="card--stacked media--border card--enclosed bg--white card--centered-left card--alignment-left"
+      media_class="card__media--medium card__media media--circle card__media"
+      headline_class="h3 headline headline--uppercase"
     />
   </div>
 </div>
