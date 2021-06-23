@@ -142,4 +142,8 @@ export default {
 
 <style lang="scss">
   @import '../../node_modules/@uiowa/uids/src/components/card/card.scss';
+
+  [class*="bg--"] div[aria-hidden='true'] {
+    color: inherit;
+  }
 </style>
