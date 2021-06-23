@@ -22,7 +22,7 @@
   banner_classes=""
   banner_type="image"
   banner_overlay= "gradient-center"
-  banner_text='<p>Ut a nisl id ante tempus hendrerit. Morbi vestibulum volutpat enim. Nullam cursus lacinia erat. Phasellus tempus. Praesent blandit laoreet nibh.</p>'
+  banner_text='<p>Ut a nisl id ante tempus hendrerit. Morbi vestibulum volutpat enim. Nullam cursus lacinia erat.<br /> Phasellus tempus. Praesent blandit laoreet nibh.</p>'
   banner_title='<span>Welcome</span> to Iowa'
   banner_title_classes='headline headline--uppercase'
 />
@@ -142,39 +142,43 @@
 <div class="grid--threecol--33-34-33">
   <div class="list-container">
     <Card
-      image="images/viewbook/sections/0315.jpg"
-      title="First Name, Last Name, <br /><b>Class of 2010</b>"
+      image="images/viewbook/profile.jpeg"
+      title="First Name Last Name, <br /><b>Class of 2010</b>"
       content="
-        Lorem Impsum sit dolor amet
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
       "
       class="card--stacked bg--black card--centered-left card--alignment-left"
       media_class="card__media--medium card__media media--circle card__media"
       img_class="media--border media--circle"
       headline_class="h3 headline headline--uppercase"
       link_url="https://google.com"
-      link_title="LSKDJFLSKDFJKLJ"
+      link_title="View Profile"
     />
     <Card 
-      image="images/viewbook/sections/0315.jpg"
-      title="First Name, Last Name, <br /><b>Class of 2010</b>"
+      image="images/viewbook/profile.jpeg"
+      title="First Name Last Name, <br /><b>Class of 2010</b>"
       content="
-        Lorem Impsum sit dolor amet
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
       "
       class="card--stacked bg--black card--centered-left card--alignment-left"
       media_class="card__media--medium card__media media--circle card__media"
       img_class="media--border media--circle"
       headline_class="h3 headline headline--uppercase"
+      link_url="https://google.com"
+      link_title="View Profile"
     />
     <Card 
-      image="images/viewbook/sections/0315.jpg"
-      title="First Name, Last Name, <br /><b>Class of 2010</b>"
+      image="images/viewbook/profile.jpeg"
+      title="First Name Last Name, <br /><b>Class of 2010</b>"
       content="
-        Lorem Impsum sit dolor amet
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
       "
       class="card--stacked bg--black card--centered-left card--alignment-left"
       media_class="card__media--medium card__media media--circle card__media"
       img_class="media--border media--circle"
       headline_class="h3 headline headline--uppercase"
+      link_url="https://google.com"
+      link_title="View Profile"
     />
   </div>
 </div>
