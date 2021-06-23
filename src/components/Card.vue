@@ -2,9 +2,9 @@
     <div class="card" :class="class">
         <div v-if="image" class="card__media" :class="media_class">
             <a v-if="link_element == 'image'" :href="link_url">
-                <img class="card__img" :src="image" alt="Alt Text" loading="lazy">
+                <img class="card__img" :class="img_class" :src="image" alt="Alt Text" loading="lazy">
             </a>
-            <img v-else class="card__img" :src="image" alt="Alt Text" loading="lazy">
+            <img v-else class="card__img" :class="img_class" :src="image" alt="Alt Text" loading="lazy">
         </div>
 
         <div class="card__body">
@@ -53,6 +53,9 @@ export default {
           type: String
         },
         media_class: {
+          type: String
+        },
+        img_class: {
           type: String
         },
         headline_class: {

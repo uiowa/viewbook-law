@@ -143,34 +143,37 @@
   <div class="list-container">
     <Card
       image="images/viewbook/sections/0315.jpg"
-      title="Card 01"
+      title="First Name, Last Name, <br /><b>Class of 2010</b>"
       content="
         Lorem Impsum sit dolor amet
       "
-      class="card--stacked media--border card--enclosed bg--white card--centered-left card--alignment-left"
+      class="card--stacked bg--black card--centered-left card--alignment-left"
       media_class="card__media--medium card__media media--circle card__media"
+      img_class="media--border media--circle"
       headline_class="h3 headline headline--uppercase"
       link_url="https://google.com"
       link_title="LSKDJFLSKDFJKLJ"
     />
     <Card 
       image="images/viewbook/sections/0315.jpg"
-      title="Card 02"
+      title="First Name, Last Name, <br /><b>Class of 2010</b>"
       content="
         Lorem Impsum sit dolor amet
       "
-      class="card--stacked media--border card--enclosed bg--white card--centered-left card--alignment-left"
+      class="card--stacked bg--black card--centered-left card--alignment-left"
       media_class="card__media--medium card__media media--circle card__media"
+      img_class="media--border media--circle"
       headline_class="h3 headline headline--uppercase"
     />
     <Card 
       image="images/viewbook/sections/0315.jpg"
-      title="Card 03"
+      title="First Name, Last Name, <br /><b>Class of 2010</b>"
       content="
         Lorem Impsum sit dolor amet
       "
-      class="card--stacked media--border card--enclosed bg--white card--centered-left card--alignment-left"
+      class="card--stacked bg--black card--centered-left card--alignment-left"
       media_class="card__media--medium card__media media--circle card__media"
+      img_class="media--border media--circle"
       headline_class="h3 headline headline--uppercase"
     />
   </div>
@@ -334,10 +337,16 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
 @import '../node_modules/@uiowa/uids/src/components/grid/grid.scss';
 @import '../node_modules/@uiowa/uids/src/components/viewbook/grid-panel/grid-panel.scss';
 @import '../node_modules/@uiowa/uids/src/components/card/card.scss';
+@import '../node_modules/@uiowa/uids/src/components/media/media.scss';
+@import '../node_modules/@uiowa/uids/src/components/background/background.scss';
 @import '../node_modules/@uiowa/uids/src/components/layouts/viewbook/viewbook.scss';
 
 .image-grid__section {
   line-height: 0;
+}
+
+.headline__text b {
+  color: $primary;
 }
 
 .element--circle-list ul {
