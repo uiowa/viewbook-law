@@ -21,7 +21,7 @@
 
             <p v-html="content"></p>
 
-            <template v-if="link_url !== '' && show_button">
+            <template v-if="link_url && show_button">
                 <template v-if="link_element == 'button'">
                     <linkButton
                         :button_link = "link_url"
@@ -85,30 +85,28 @@ export default {
         linkButton,
     },
     data() {
-      return () => {
-        let data = {
-          link_element: 'card',
-          show_button: false,
-        };
+      let data = {
+        link_element: 'card',
+        show_button: false,
+      };
 
-        // Set dynamic properties of link_element and show_button.
-        if (this.link_url !== '') {
-            if (this.title !== '') {
-                data.link_element = 'title';
+      // Set dynamic properties of link_element and show_button.
+      if (this.link_url) {
+          if (this.title) {
+              data.link_element = 'title';
 
-                // If we also have link text, then we'll show a psuedo-button.
-                if (this.link_title !== '') {
-                    data.show_button = true;
-                }
-            }
-            else if (this.link_title !== '') {
-              data.link_element = 'button';
-              data.show_button = true;
-            }
-        }
-
-        return data;
+              // If we also have link text, then we'll show a psuedo-button.
+              if (this.link_title) {
+                  data.show_button = true;
+              }
+          }
+          else if (this.link_title) {
+            data.link_element = 'button';
+            data.show_button = true;
+          }
       }
+
+      return data;
     },
     // This will attach a click listener on this card if it has one of the classes listed in 'link_elements'.
     // created() {
