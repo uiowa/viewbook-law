@@ -3,6 +3,8 @@
 <!-- Notable example sections should have comments to help anyone new to the system understand them. -->
 <iowa-bar
   iowa_bar_classes="iowa-bar--narrow"
+  site_name="College of Law"
+  site_name_link="https://law.uiowa.edu"
 />
 
 <!-- This is an example of a vertical dots scroll spacer, -->
@@ -20,7 +22,7 @@
   banner_classes=""
   banner_type="image"
   banner_overlay= "gradient-center"
-  banner_text=''
+  banner_text='<p>Ut a nisl id ante tempus hendrerit. Morbi vestibulum volutpat enim. Nullam cursus lacinia erat.<br /> Phasellus tempus. Praesent blandit laoreet nibh.</p>'
   banner_title='<span>Welcome</span> to Iowa'
   banner_title_classes='headline headline--uppercase'
 />
@@ -41,24 +43,27 @@
 <!-- Anything that will be used as a String in the component can be written without a colon before it. -->
 <!-- Anything that does not (eg. Boolean, int, float) must have a colon in front of it. -->
 <!-- This tells Vue that it should evaluate it like a javascript variable. -->
-<stat
+<!-- <stat
   headline="34"
   headline_prefix="#"
   headline_suffix=""
   stat_description="BEST PUBLIC UNIVERSITY BY U.S. NEWS & WORLD REPORT"
   stat_content="Among the top 2% of universities worldwide."
   :stat_vertical="true"
-/>
+/> -->
 
 <!-- This is a great example of passing props from the `data() { return { PROPS }}` area further down in this file.-->
 <!-- You can define props there to pass to any component. -->
 <!-- However, you must prefix every component used this way with a colon. -->
+<div class="v-dots-scroll-spacer">
+  <div class="v-dots-scroll-target" id="stats"></div>
+</div>
 <statWrapper
   :stats="stats_1"
 />
 
 <div class="v-dots-scroll-spacer">
-  <div class="v-dots-scroll-target" id="academic-opportunities"></div>
+  <div class="v-dots-scroll-target" id="why"></div>
 </div>
 <grid-panel
   link_url= 'https://admissions.uiowa.edu/academics/academics'
@@ -74,7 +79,109 @@
   grid_panel_content_2= '<p>How many universities have both a state-of-the-art children’s hospital and a 3,883-pipe Klais organ? Or helped build the Voyager I satellite and the very first creative writing degree program? Just one: Iowa.</p>'
 />
 
+<grid-panel
+  link_url= 'https://admissions.uiowa.edu/academics/academics'
+  image= 'images/viewbook/sections/0315.jpg'
+  headline= 'We Work <span>Together</span>'
+  button_text= 'View Academic Opportunities'
+  button_link= ''
+  grid_panel_type= 'grid-panel grid-panel--asymmetrical'
+  grid_panel_first_column= 'grid-panel__column-content-left grid-panel__content'
+  grid_panel_second_column= 'grid-panel__column-image-right'
+  grid_content_position= 'first'
+  grid_panel_content= '<p>The University of Iowa blends big-school opportunities with close, personal support to help you excel. We remove the barriers between arts and science, between students and faculty—but most of all, between you and anything you’d like to explore.</p>'
+  grid_panel_content_2= '<p>How many universities have both a state-of-the-art children’s hospital and a 3,883-pipe Klais organ? Or helped build the Voyager I satellite and the very first creative writing degree program? Just one: Iowa.</p>'
+/>
 
+<grid-panel
+  link_url= 'https://admissions.uiowa.edu/academics/academics'
+  image= 'images/viewbook/sections/0315.jpg'
+  headline= 'We Work <span>Together</span>'
+  button_text= 'View Academic Opportunities'
+  button_link= ''
+  grid_panel_type= 'grid-panel grid-panel--asymmetrical'
+  grid_panel_first_column= 'grid-panel__column-image-left'
+  grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
+  grid_content_position= 'second'
+  grid_panel_content= '<p>The University of Iowa blends big-school opportunities with close, personal support to help you excel. We remove the barriers between arts and science, between students and faculty—but most of all, between you and anything you’d like to explore.</p>'
+  grid_panel_content_2= '<p>How many universities have both a state-of-the-art children’s hospital and a 3,883-pipe Klais organ? Or helped build the Voyager I satellite and the very first creative writing degree program? Just one: Iowa.</p>'
+/>
+
+<grid-panel
+  link_url= 'https://admissions.uiowa.edu/academics/academics'
+  image= 'images/viewbook/sections/0315.jpg'
+  headline= 'We Work <span>Together</span>'
+  button_text= 'View Academic Opportunities'
+  button_link= ''
+  grid_panel_type= 'grid-panel grid-panel--asymmetrical'
+  grid_panel_first_column= 'grid-panel__column-content-left grid-panel__content'
+  grid_panel_second_column= 'grid-panel__column-image-right'
+  grid_content_position= 'first'
+  grid_panel_content= '<p>The University of Iowa blends big-school opportunities with close, personal support to help you excel. We remove the barriers between arts and science, between students and faculty—but most of all, between you and anything you’d like to explore.</p>'
+  grid_panel_content_2= '<p>How many universities have both a state-of-the-art children’s hospital and a 3,883-pipe Klais organ? Or helped build the Voyager I satellite and the very first creative writing degree program? Just one: Iowa.</p>'
+/>
+
+<grid-panel
+  link_url= 'https://admissions.uiowa.edu/academics/academics'
+  image= 'images/viewbook/sections/0315.jpg'
+  headline= 'We Work <span>Together</span>'
+  button_text= 'View Academic Opportunities'
+  button_link= ''
+  grid_panel_type= 'grid-panel grid-panel--asymmetrical'
+  grid_panel_first_column= 'grid-panel__column-image-left'
+  grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
+  grid_content_position= 'second'
+  grid_panel_content= '<p>The University of Iowa blends big-school opportunities with close, personal support to help you excel. We remove the barriers between arts and science, between students and faculty—but most of all, between you and anything you’d like to explore.</p>'
+  grid_panel_content_2= '<p>How many universities have both a state-of-the-art children’s hospital and a 3,883-pipe Klais organ? Or helped build the Voyager I satellite and the very first creative writing degree program? Just one: Iowa.</p>'
+/>
+
+<div class="v-dots-scroll-spacer">
+  <div class="v-dots-scroll-target" id="what"></div>
+</div>
+
+<div class="grid--threecol--33-34-33">
+  <div class="list-container">
+    <Card
+      image="images/viewbook/profile.jpeg"
+      title="First Name Last Name, <br /><b>Class of 2010</b>"
+      content="
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+      "
+      class="card--stacked bg--black card--centered-left card--alignment-left"
+      media_class="card__media--medium card__media media--circle card__media"
+      img_class="media--border media--circle"
+      headline_class="h3 headline headline--uppercase"
+      link_url="https://google.com"
+      link_title="View Profile"
+    />
+    <Card 
+      image="images/viewbook/profile.jpeg"
+      title="First Name Last Name, <br /><b>Class of 2010</b>"
+      content="
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+      "
+      class="card--stacked bg--black card--centered-left card--alignment-left"
+      media_class="card__media--medium card__media media--circle card__media"
+      img_class="media--border media--circle"
+      headline_class="h3 headline headline--uppercase"
+      link_url="https://google.com"
+      link_title="View Profile"
+    />
+    <Card 
+      image="images/viewbook/profile.jpeg"
+      title="First Name Last Name, <br /><b>Class of 2010</b>"
+      content="
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+      "
+      class="card--stacked bg--black card--centered-left card--alignment-left"
+      media_class="card__media--medium card__media media--circle card__media"
+      img_class="media--border media--circle"
+      headline_class="h3 headline headline--uppercase"
+      link_url="https://google.com"
+      link_title="View Profile"
+    />
+  </div>
+</div>
 
 <footerSection
   :contact_info="contact_info"
@@ -88,6 +195,7 @@
 // You must also register them in the `components` section of the `export default {}` area below.
 // For ease of use, all currently usable components are imported here.
 import Banner from './components/Banner.vue';
+import Card from './components/Card.vue';
 import Stat from './components/Stat.vue';
 import statWrapper from './components/statWrapper.vue';
 import IowaBar from './components/IowaBar.vue';
@@ -99,6 +207,7 @@ import Aerial from './components/Aerial.vue';
 import menuGroup from './components/menuGroup.vue';
 import footerSection from './components/footerSection.vue';
 import Modal from './components/Modal.vue';
+import SiteName from './components/siteName.vue';
 
 export default {
   name: 'App',
@@ -106,6 +215,7 @@ export default {
   // In addition to importing all components from their files, you must register them here for them to work.
   components: {
     Banner,
+    Card,
     Stat,
     statWrapper,
     IowaBar,
@@ -116,7 +226,8 @@ export default {
     Aerial,
     menuGroup,
     Modal,
-    footerSection
+    footerSection,
+    SiteName
   },
 
   // This area is where we are currently importing the set props for our components.
@@ -155,22 +266,22 @@ export default {
       menu_items: [
         {
           text: 'Apply Now',
-          url: 'https://admissions.uiowa.edu/apply/first-year-student-application-process',
+          url: 'https://law.uiowa.edu/admissions/apply-iowa-law',
           item_class: 'bttn bttn--outline bttn--tertiary bttn--transparent bttn--caps bttn--apply'
         },
         {
           text:  'Schedule a Visit',
-          url: 'https://admissions.uiowa.edu/visit-campus',
+          url: 'https://law.uiowa.edu/schedule-tour',
           item_class: 'bttn bttn--outline bttn--tertiary bttn--transparent bttn--caps bttn--visit'
         },
         {
           text: 'Contact Us',
-          url: 'https://admissions.uiowa.edu/contact-us',
+          url: 'https://law.uiowa.edu/admissions/contact-us',
           item_class: 'bttn bttn--outline bttn--tertiary bttn--transparent bttn--caps bttn--ask'
         },
         {
           text: 'Request Information',
-          url: 'https://www.maui.uiowa.edu/maui/pub/admissions/webinquiry/undergraduate.page',
+          url: 'https://fap.lsac.org/prospect.aspx?data=NjY4MQEBMTM%3D-9%2BjUP0srGUA%3D',
           item_class: 'bttn bttn--outline bttn--tertiary bttn--transparent bttn--caps bttn--connect'
         },
       ],
@@ -180,8 +291,16 @@ export default {
           section_id: 'hero-banner'
         },
         {
-          section_title: 'Academic Opportunities',
-          section_id: 'academic-opportunities'
+          section_title: 'SUCCESS BY THE NUMBERS',
+          section_id: 'stats'
+        },
+        {
+          section_title: 'WHY CHOOSE IOWA LAW?',
+          section_id: 'why'
+        },
+        {
+          section_title: 'WHAT ARE HAWKEYES SAYING?',
+          section_id: 'what'
         },
       ],
       contact_info: '<p>Iowa City, Iowa 52242<br><a href=""><i class="fas fa-phone"></i> 123-456-7890</a><br /></p>',
@@ -222,10 +341,16 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
 @import '../node_modules/@uiowa/uids/src/components/grid/grid.scss';
 @import '../node_modules/@uiowa/uids/src/components/viewbook/grid-panel/grid-panel.scss';
 @import '../node_modules/@uiowa/uids/src/components/card/card.scss';
+@import '../node_modules/@uiowa/uids/src/components/media/media.scss';
+@import '../node_modules/@uiowa/uids/src/components/background/background.scss';
 @import '../node_modules/@uiowa/uids/src/components/layouts/viewbook/viewbook.scss';
 
 .image-grid__section {
   line-height: 0;
+}
+
+.headline__text b {
+  color: $primary;
 }
 
 .element--circle-list ul {
