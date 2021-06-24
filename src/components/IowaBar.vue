@@ -5,7 +5,10 @@
         logo_id="header"
         logo_classes="logo--tab"
       />
-      <!-- This is where we would print a parent site name or an inline site name -->
+      <siteName 
+        :site_name="site_name"
+        :site_name_link="site_name_link"
+      />
       <!-- This is where we would print Top links -->
       <!-- This is where we would print off canvas -->
     </div>
@@ -15,6 +18,7 @@
 
 <script>
 import Logo from './Logo.vue';
+import siteName from './siteName.vue';
 
 export default {
     name: 'IowaBar',
@@ -25,11 +29,18 @@ export default {
       },
       parent_site: {
         type: String
+      },
+      site_name: {
+        type: String
+      },
+      site_name_link: {
+        type: String
       }
     },
 
     components: {
-      Logo
+      Logo,
+      siteName
     },
 
     methods: {
