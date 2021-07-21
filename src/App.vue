@@ -366,7 +366,12 @@ export default {
         }
       ]
     }
-  }
+  },
+  mounted() {
+    let clickA11y = document.createElement('script')
+    clickA11y.setAttribute('src', '/js/click-a11y.js')
+    document.head.appendChild(clickA11y)
+  },
 }
 </script>
 
