@@ -69,7 +69,7 @@
 <grid-panel
   link_url= 'https://law.uiowa.edu/academics'
   image= 'images/viewbook/2.jpg'
-  headline= '<span>Stand Out</span> from the crowd'
+  headline= 'Stand Out from the crowd'
   button_text= 'Academics'
   button_link= ''
   grid_panel_type= 'grid-panel grid-panel--asymmetrical'
@@ -88,7 +88,7 @@ personal approach to legal education makes it easy to build strong connections w
 <grid-panel
   link_url= 'https://law.uiowa.edu/faculty-and-scholarship'
   image= 'images/viewbook/3.jpg'
-  headline= '<span>Learn</span> from expert legal scholars'
+  headline= 'Learn from expert legal scholars'
   button_text= 'Faculty and Scholarship'
   button_link= ''
   grid_panel_type= 'grid-panel grid-panel--asymmetrical'
@@ -105,7 +105,7 @@ personal approach to legal education makes it easy to build strong connections w
 <grid-panel
   link_url= 'https://law.uiowa.edu/experiential-learning'
   image= 'images/viewbook/4.jpg'
-  headline= 'Take <span>Real Action</span> and make real change'
+  headline= 'Take Real Action and make real change'
   button_text= 'Experiential Learning'
   button_link= ''
   grid_panel_type= 'grid-panel grid-panel--asymmetrical'
@@ -123,7 +123,7 @@ personal approach to legal education makes it easy to build strong connections w
 <grid-panel
   link_url= 'https://law.uiowa.edu/student-experience/student-life/iowa-city'
   image= 'images/viewbook/5.jpg'
-  headline= 'The <span>Best Place</span> to live'
+  headline= 'The Best Place to live'
   button_text= 'Student Life'
   button_link= ''
   grid_panel_type= 'grid-panel grid-panel--asymmetrical'
@@ -141,7 +141,7 @@ personal approach to legal education makes it easy to build strong connections w
 <grid-panel
   link_url= 'https://law.uiowa.edu/careers'
   image= 'images/viewbook/6.jpg'
-  headline= '<span>Career Advice</span> that gets you hired'
+  headline= 'Career Advice that gets you hired'
   button_text= 'Careers'
   button_link= ''
   grid_panel_type= 'grid-panel grid-panel--asymmetrical'
@@ -160,40 +160,46 @@ personal approach to legal education makes it easy to build strong connections w
   <div class="list-container">
     <Card
       image="images/viewbook/hayleigh-hansen.JPG"
-      title="Specialize in your interests<br /><b>Hayleigh Hansen</b>, Juris Doctor, '21"
+      title="Specialize in your interests<br /><b>Hayleigh Hansen</b>"
+      author="Juris Doctor, '21"
       content="
         'I wanted to see health law from the client’s perspective. Getting to interact with patients and medical providers for a week was absolutely invaluable. I would honestly say this experience was the single-most practical learning experience I’ve had throughout my legal education.'
       "
       class="card--stacked bg--black card--centered-left card--alignment-left"
-      media_class="card__media--medium card__media media--circle card__media"
-      img_class="media--border media--circle"
+      media_class="card__media--large card__media card__media"
+      img_class=""
       headline_class="h3 headline headline--uppercase"
+      headline_url_class="click-target"
       link_url="https://law.uiowa.edu/news/2020/04/iowa-law-where-law-and-health-care-meet"
       link_title="See full story"
     />
     <Card 
       image="images/viewbook/kayla-boyd.jpg"
-      title="Turn passion into experience<br /><b>Kayla Boyd</b>, Juris Doctor, '21"
+      title="Turn passion into experience<br /><b>Kayla Boyd</b>"
+      author="Juris Doctor, '21"
       content="
         'My goal is to help the most vulnerable people in our criminal legal system, and the best way to do that is to provide an outstanding legal defense for those who have been wrongfully accused and treated unfairly, to stand up in court and tell their story.'
       "
       class="card--stacked bg--black card--centered-left card--alignment-left"
-      media_class="card__media--medium card__media media--circle card__media"
-      img_class="media--border media--circle"
+      media_class="card__media--large card__media card__media"
+      img_class=""
       headline_class="h3 headline headline--uppercase"
+      headline_url_class="click-target"
       link_url="https://stories.uiowa.edu/spring-2021-graduates-kayla-boyd"
       link_title="See full story"
     />
     <Card 
       image="images/viewbook/emani-marshall.jpg"
       title="Build a foundation for your career<br /><b>Emani Marsall-Loving</b>"
+      author="Juris Doctor, '21"
       content="
         'While writing my brief and preparing for oral arguments, I realized that Iowa Law had equipped me with the necessary skills to excel. Participating in the Appellate Advocacy program made me more confident, prepared, and equipped to take on the legal world and my legal career.'
       "
       class="card--stacked bg--black card--centered-left card--alignment-left"
-      media_class="card__media--medium card__media media--circle card__media"
-      img_class="media--border media--circle"
+      media_class="card__media--large card__media card__media"
+      img_class=""
       headline_class="h3 headline headline--uppercase"
+      headline_url_class="click-target"
       link_url="https://law.uiowa.edu/news/2020/12/midwest-travels-take-marshall-loving-iowa-supreme-court"
       link_title="See full story"
     />
@@ -386,10 +392,27 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
   color: $primary;
 }
 
+@media (min-width: 992px) {
+  .banner p {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 93.75em) and (min-width: 84.375em) {
+  .grid-panel__content .headline--uppercase {
+    font-size: calc(2.5em + .3vw) !important;
+  }
+}
+
 .element--circle-list ul {
   margin-top: 1.05rem;
   margin-bottom: 1.05rem;
   margin-left: 1.875rem;
+}
+
+.card p {
+  margin-top: 0.625rem;
 }
 
 // Override and condense for smaller devices.
