@@ -15,15 +15,15 @@
 </div>
 
 <banner
-  image="images/widescreen__2592_x_1458/pano.jpg"
+  image="images/viewbook/1.jpg"
   banner_size="large"
   banner_vertical_alignment="vertical-center"
   banner_horizontal_alignment="horizontal-center"
   banner_classes=""
   banner_type="image"
   banner_overlay= "gradient-center"
-  banner_text='<p>Ut a nisl id ante tempus hendrerit. Morbi vestibulum volutpat enim. Nullam cursus lacinia erat.<br /> Phasellus tempus. Praesent blandit laoreet nibh.</p>'
-  banner_title='<span>Welcome</span> to Iowa'
+  banner_text='<p>World-class academics, close connections with faculty, collaborative culture, dynamic campus life, and invaluable resources to help you prepare for a career you love.</p>'
+  banner_title='This is <span>Iowa Law</span>'
   banner_title_classes='headline headline--uppercase'
 />
 
@@ -66,25 +66,409 @@
   <div class="v-dots-scroll-target" id="why"></div>
 </div>
 <grid-panel
-  link_url= 'https://admissions.uiowa.edu/academics/academics'
-  image= 'images/viewbook/sections/0315.jpg'
-  headline= 'We Work <span>Together</span>'
-  button_text= 'View Academic Opportunities'
+  link_url= 'https://law.uiowa.edu/academics'
+  image= 'images/viewbook/2.jpg'
+  headline= '<span>Stand Out</span> from the crowd'
+  button_text= 'Academics'
   button_link= ''
   grid_panel_type= 'grid-panel grid-panel--asymmetrical'
   grid_panel_first_column= 'grid-panel__column-image-left'
   grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
   grid_content_position= 'second'
-  grid_panel_content= '<p>The University of Iowa blends big-school opportunities with close, personal support to help you excel. We remove the barriers between arts and science, between students and faculty—but most of all, between you and anything you’d like to explore.</p>'
-  grid_panel_content_2= '<p>How many universities have both a state-of-the-art children’s hospital and a 3,883-pipe Klais organ? Or helped build the Voyager I satellite and the very first creative writing degree program? Just one: Iowa.</p>'
+  grid_panel_content= '<p>Iowa Law offers a unique opportunity to learn and interact in an intimate collegial setting. Our
+personal approach to legal education makes it easy to build strong connections with your professors and gives you the flexibility to explore interdisciplinary legal issues across campus. With smaller class sizes that encourage teamwork, you’ll collaborate—not compete with your classmates. Together, you’ll exercise your knowledge and engage in constructive discussions that extend far beyond the classroom.
+</p>'
 />
 
 <grid-panel
   link_url= 'https://admissions.uiowa.edu/academics/academics'
-  image= 'images/viewbook/sections/0315.jpg'
-  headline= 'We Work <span>Together</span>'
+  image= 'images/viewbook/3.jpg'
+  headline= '<span>Learn</span> from expert legal scholars'
   button_text= 'View Academic Opportunities'
-  button_link= ''
+  button_link= ''<template>
+  <!-- This template should give enough examples of what Vue components should look like.-->
+  <!-- Notable example sections should have comments to help anyone new to the system understand them. -->
+  <iowa-bar
+    iowa_bar_classes="iowa-bar--narrow"
+    site_name="College of Law"
+    site_name_link="https://law.uiowa.edu"
+  />
+
+  <!-- This is an example of a vertical dots scroll spacer, -->
+  <!-- Which is what the vertical dots menu will jump to when the corresponding dot is clicked -->
+  <!-- The ID of the `v-dots-scroll-target` and its corresponding `section_id` in the `sections` array should match -->
+  <div class="v-dots-scroll-spacer">
+    <div class="v-dots-scroll-target" id="hero-banner"></div>
+  </div>
+
+  <banner
+    image="images/viewbook/1.jpg"
+    banner_size="large"
+    banner_vertical_alignment="vertical-center"
+    banner_horizontal_alignment="horizontal-center"
+    banner_classes=""
+    banner_type="image"
+    banner_overlay= "gradient-center"
+    banner_text='<p>World-class academics, close connections with faculty, collaborative culture, dynamic campus life, and invaluable resources to help you prepare for a career you love.</p>'
+    banner_title='This is <span>Iowa Law</span>'
+    banner_title_classes='headline headline--uppercase'
+  />
+
+  <div role="region" class="menu-group__wrapper">
+    <div class="menu-group__container">
+      <menuGroup
+        :items="menu_items"
+      />
+    </div>
+  </div>
+
+  <verticalDots
+    :sections="sections"
+  />
+
+  <!-- This is a great example of passing `props` in to a component inline. -->
+  <!-- Anything that will be used as a String in the component can be written without a colon before it. -->
+  <!-- Anything that does not (eg. Boolean, int, float) must have a colon in front of it. -->
+  <!-- This tells Vue that it should evaluate it like a javascript variable. -->
+  <!-- <stat
+    headline="34"
+    headline_prefix="#"
+    headline_suffix=""
+    stat_description="BEST PUBLIC UNIVERSITY BY U.S. NEWS & WORLD REPORT"
+    stat_content="Among the top 2% of universities worldwide."
+    :stat_vertical="true"
+  /> -->
+
+  <!-- This is a great example of passing props from the `data() { return { PROPS }}` area further down in this file.-->
+  <!-- You can define props there to pass to any component. -->
+  <!-- However, you must prefix every component used this way with a colon. -->
+  <div class="v-dots-scroll-spacer">
+    <div class="v-dots-scroll-target" id="stats"></div>
+  </div>
+  <statWrapper
+    :stats="stats_1"
+  />
+
+  <div class="v-dots-scroll-spacer">
+    <div class="v-dots-scroll-target" id="why"></div>
+  </div>
+  <grid-panel
+    link_url= 'https://law.uiowa.edu/academics'
+    image= 'images/viewbook/2.jpg'
+    headline= '<span>Stand Out</span> from the crowd'
+    button_text= 'Academics'
+    button_link= ''
+    grid_panel_type= 'grid-panel grid-panel--asymmetrical'
+    grid_panel_first_column= 'grid-panel__column-image-left'
+    grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
+    grid_content_position= 'second'
+    grid_panel_content= '<p>Iowa Law offers a unique opportunity to learn and interact in an intimate collegial setting. Our personal approach to legal education makes it easy to build strong connections with your professors and gives you the flexibility to explore interdisciplinary legal issues across campus. With smaller class sizes that encourage teamwork, you’ll collaborate—not compete with your classmates. Together, you’ll exercise your knowledge and engage in constructive discussions that extend far beyond the classroom.</p>'
+  />
+
+  <grid-panel
+    link_url= 'https://law.uiowa.edu/faculty-and-scholarship'
+    image= 'images/viewbook/3.jpg'
+    headline= '<span>Learn</span> from expert legal scholars'
+    button_text= 'Faculty and Scholarship'
+    button_link= ''
+    grid_panel_type= 'grid-panel grid-panel--asymmetrical'
+    grid_panel_first_column= 'grid-panel__column-content-left grid-panel__content'
+    grid_panel_second_column= 'grid-panel__column-image-right'
+    grid_content_position= 'first'
+    grid_panel_content= '<p>Recognized thinkers, scholars, and writers, Iowa Law boasts an experienced, student-centered faculty dedicated to the development of practice-ready lawyers. Our 7:1 student-to-faculty ratio will ensure you receive the individualized instruction and support you deserve. As the best public university for writing in the U.S., we invest in full-time professors focused solely on your growth in research, analytical thinking, and persuasive communication—skills you can bring with you not only to the practice of law, but to any career.</p>'
+  />
+
+  <grid-panel
+    link_url= 'https://law.uiowa.edu/experiential-learning'
+    image= 'images/viewbook/4.jpg'
+    headline= 'Take <span>Real Action</span> and make real change'
+    button_text= 'Experiential Learning'
+    button_link= ''
+    grid_panel_type= 'grid-panel grid-panel--asymmetrical'
+    grid_panel_first_column= 'grid-panel__column-image-left'
+    grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
+    grid_content_position= 'second'
+    grid_panel_content= '<p>At Iowa Law, you’ll learn first-hand how to be an effective problem-solver in an everchanging society. Starting from day 1, you’ll learn how to model your legal skills to meaningfully assist members of the community. By your second or third year, you’ll have the ability to represent individuals in litigation, transactional work, and policy advocacy. From semester-long placement programs to moot court competitions, you’ll find endless opportunities to master your professional skills while gaining confidence to begin your career.</p>'
+  />
+
+  <grid-panel
+    link_url= 'https://admissions.uiowa.edu/academics/academics'
+    image= 'images/viewbook/sections/0315.jpg'
+    headline= 'We Work <span>Together</span>'
+    button_text= 'View Academic Opportunities'
+    button_link= ''
+    grid_panel_type= 'grid-panel grid-panel--asymmetrical'
+    grid_panel_first_column= 'grid-panel__column-content-left grid-panel__content'
+    grid_panel_second_column= 'grid-panel__column-image-right'
+    grid_content_position= 'first'
+    grid_panel_content= '<p>The University of Iowa blends big-school opportunities with close, personal support to help you excel. We remove the barriers between arts and science, between students and faculty—but most of all, between you and anything you’d like to explore.</p>'
+    grid_panel_content_2= '<p>How many universities have both a state-of-the-art children’s hospital and a 3,883-pipe Klais organ? Or helped build the Voyager I satellite and the very first creative writing degree program? Just one: Iowa.</p>'
+  />
+
+  <grid-panel
+    link_url= 'https://admissions.uiowa.edu/academics/academics'
+    image= 'images/viewbook/sections/0315.jpg'
+    headline= 'We Work <span>Together</span>'
+    button_text= 'View Academic Opportunities'
+    button_link= ''
+    grid_panel_type= 'grid-panel grid-panel--asymmetrical'
+    grid_panel_first_column= 'grid-panel__column-image-left'
+    grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
+    grid_content_position= 'second'
+    grid_panel_content= '<p>The University of Iowa blends big-school opportunities with close, personal support to help you excel. We remove the barriers between arts and science, between students and faculty—but most of all, between you and anything you’d like to explore.</p>'
+    grid_panel_content_2= '<p>How many universities have both a state-of-the-art children’s hospital and a 3,883-pipe Klais organ? Or helped build the Voyager I satellite and the very first creative writing degree program? Just one: Iowa.</p>'
+  />
+
+  <div class="v-dots-scroll-spacer">
+    <div class="v-dots-scroll-target" id="what"></div>
+  </div>
+
+  <div class="grid--threecol--33-34-33">
+    <div class="list-container">
+      <Card
+        image="images/viewbook/profile.jpeg"
+        title="First Name Last Name, <br /><b>Class of 2010</b>"
+        content="
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+      "
+        class="card--stacked bg--black card--centered-left card--alignment-left"
+        media_class="card__media--medium card__media media--circle card__media"
+        img_class="media--border media--circle"
+        headline_class="h3 headline headline--uppercase"
+        link_url="https://google.com"
+        link_title="View Profile"
+      />
+      <Card
+        image="images/viewbook/profile.jpeg"
+        title="First Name Last Name, <br /><b>Class of 2010</b>"
+        content="
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+      "
+        class="card--stacked bg--black card--centered-left card--alignment-left"
+        media_class="card__media--medium card__media media--circle card__media"
+        img_class="media--border media--circle"
+        headline_class="h3 headline headline--uppercase"
+        link_url="https://google.com"
+        link_title="View Profile"
+      />
+      <Card
+        image="images/viewbook/profile.jpeg"
+        title="First Name Last Name, <br /><b>Class of 2010</b>"
+        content="
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+      "
+        class="card--stacked bg--black card--centered-left card--alignment-left"
+        media_class="card__media--medium card__media media--circle card__media"
+        img_class="media--border media--circle"
+        headline_class="h3 headline headline--uppercase"
+        link_url="https://google.com"
+        link_title="View Profile"
+      />
+    </div>
+  </div>
+
+  <footerSection
+    :contact_info="contact_info"
+    :social_media_links="social_media_links"
+  />
+
+</template>
+
+  <script>
+    // In order to use components, you must import them from their files to your script.
+    // You must also register them in the `components` section of the `export default {}` area below.
+    // For ease of use, all currently usable components are imported here.
+    import Banner from './components/Banner.vue';
+    import Card from './components/Card.vue';
+    import Stat from './components/Stat.vue';
+    import statWrapper from './components/statWrapper.vue';
+    import IowaBar from './components/IowaBar.vue';
+    import GridPanel from './components/GridPanel.vue';
+    import Headline from './components/Headline.vue';
+    import verticalDots from './components/verticalDots.vue';
+    import linkButton from './components/linkButton.vue';
+    import Aerial from './components/Aerial.vue';
+    import menuGroup from './components/menuGroup.vue';
+    import footerSection from './components/footerSection.vue';
+    import Modal from './components/Modal.vue';
+    import SiteName from './components/siteName.vue';
+
+    export default {
+      name: 'App',
+
+      // In addition to importing all components from their files, you must register them here for them to work.
+      components: {
+        Banner,
+        Card,
+        Stat,
+        statWrapper,
+        IowaBar,
+        Headline,
+        verticalDots,
+        GridPanel,
+        linkButton,
+        Aerial,
+        menuGroup,
+        Modal,
+        footerSection,
+        SiteName
+      },
+
+      // This area is where we are currently importing the set props for our components.
+      data() {
+        return {
+          stats_1: [
+            {
+              headline: '29',
+              headline_prefix: '#',
+              headline_suffix: '',
+              stat_description: 'BEST LAW SCHOOL BY U.S. NEWS & WORLD REPORT',
+              stat_content: 'Among 193 nationally ranked law schools.',
+            },
+            {
+              headline: '100',
+              headline_prefix: '',
+              headline_suffix: '%',
+              stat_description: 'JOB PLACEMENT RATE WITHIN 10 MONTHS OF GRADUATION',
+              stat_content: '10% higher than the national average.',
+            },
+            {
+              headline: '9',
+              headline_prefix: '',
+              headline_suffix: 'th',
+              stat_description: 'HIGHEST EMPLOYMENT RATE FOR FULL-TIME JOBS, LAW.COM',
+              stat_content: 'Gain real-world skills that make resumés stand out.',
+            },
+            {
+              headline: '94',
+              headline_prefix: '',
+              headline_suffix: '%',
+              stat_description: 'BAR PASSAGE RATE PASSAGE RATE AMONG FIRST-TIME TAKERS',
+              stat_content: '13% higher than the national average.',
+            }
+          ],
+          menu_items: [
+            {
+              text: 'Apply Now',
+              url: 'https://law.uiowa.edu/admissions/apply-iowa-law',
+              item_class: 'bttn bttn--outline bttn--tertiary bttn--transparent bttn--caps bttn--apply'
+            },
+            {
+              text:  'Schedule a Visit',
+              url: 'https://law.uiowa.edu/schedule-tour',
+              item_class: 'bttn bttn--outline bttn--tertiary bttn--transparent bttn--caps bttn--visit'
+            },
+            {
+              text: 'Contact Us',
+              url: 'https://law.uiowa.edu/admissions/contact-us',
+              item_class: 'bttn bttn--outline bttn--tertiary bttn--transparent bttn--caps bttn--ask'
+            },
+            {
+              text: 'Request Information',
+              url: 'https://fap.lsac.org/prospect.aspx?data=NjY4MQEBMTM%3D-9%2BjUP0srGUA%3D',
+              item_class: 'bttn bttn--outline bttn--tertiary bttn--transparent bttn--caps bttn--connect'
+            },
+          ],
+          sections: [
+            {
+              section_title: 'Back to Top',
+              section_id: 'hero-banner'
+            },
+            {
+              section_title: 'SUCCESS BY THE NUMBERS',
+              section_id: 'stats'
+            },
+            {
+              section_title: 'WHY CHOOSE IOWA LAW?',
+              section_id: 'why'
+            },
+            {
+              section_title: 'WHAT ARE HAWKEYES SAYING?',
+              section_id: 'what'
+            },
+          ],
+          contact_info: '<p>Iowa City, Iowa 52242<br><a href=""><i class="fas fa-phone"></i> 123-456-7890</a><br /></p>',
+          social_media_links: [
+            {
+              text: 'Facebook',
+              url: '',
+              icon_class: 'fab fa-facebook-square'
+            },
+            {
+              text: 'Instagram',
+              url: '',
+              icon_class: 'fab fa-instagram'
+            },
+            {
+              text:  'Twitter',
+              url: '',
+              icon_class: 'fab fa-twitter-square'
+            },
+            {
+              text: 'Youtube',
+              url: '',
+              icon_class: 'fab fa-youtube'
+            }
+          ]
+        }
+      }
+    }
+  </script>
+
+  <style lang="scss">
+    $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
+    @import '../node_modules/@uiowa/uids/src/assets/scss/reset.scss';
+    @import '../node_modules/@uiowa/uids/src/components/typography/lists/lists.scss';
+    @import '../node_modules/@uiowa/uids/src/components/tables/tables.scss';
+    @import '../node_modules/@uiowa/uids/src/components/typography/paragraph/paragraph.scss';
+    @import '../node_modules/@uiowa/uids/src/components/colors/colors.scss';
+    @import '../node_modules/@uiowa/uids/src/components/grid/grid.scss';
+    @import '../node_modules/@uiowa/uids/src/components/viewbook/grid-panel/grid-panel.scss';
+    @import '../node_modules/@uiowa/uids/src/components/card/card.scss';
+    @import '../node_modules/@uiowa/uids/src/components/media/media.scss';
+    @import '../node_modules/@uiowa/uids/src/components/background/background.scss';
+    @import '../node_modules/@uiowa/uids/src/components/layouts/viewbook/viewbook.scss';
+
+    .image-grid__section {
+      line-height: 0;
+    }
+
+    .headline__text b {
+      color: $primary;
+    }
+
+    .element--circle-list ul {
+      margin-top: 1.05rem;
+      margin-bottom: 1.05rem;
+      margin-left: 1.875rem;
+    }
+
+    // Override and condense for smaller devices.
+    .menu-group__wrapper {
+      transition: padding 0.5s ease;
+      padding: 0.3rem 0;
+      .menu-group__container .menu a {
+        transition: margin 0.5s ease;
+        margin: 0px .5rem;
+        padding-bottom: 0.5rem;
+      }
+      .bttn--outline {
+        border: none;
+      }
+    }
+    @media (min-height: 1000px) {
+      .menu-group__wrapper {
+        padding: 1.875rem 0;
+        .menu-group__container .menu a {
+          margin: 0px 1.05rem;
+        }
+        .bttn--outline {
+          border: 1px solid rgb(21, 21, 21);
+        }
+      }
+    }
+  </style>
+
   grid_panel_type= 'grid-panel grid-panel--asymmetrical'
   grid_panel_first_column= 'grid-panel__column-content-left grid-panel__content'
   grid_panel_second_column= 'grid-panel__column-image-right'
@@ -235,32 +619,32 @@ export default {
     return {
       stats_1: [
         {
-          headline: '34',
+          headline: '29',
           headline_prefix: '#',
           headline_suffix: '',
-          stat_description: 'BEST PUBLIC UNIVERSITY BY U.S. NEWS & WORLD REPORT',
-          stat_content: 'Among the top 2% of universities worldwide.',
+          stat_description: 'BEST LAW SCHOOL BY U.S. NEWS & WORLD REPORT',
+          stat_content: 'Among 193 nationally ranked law schools.',
         },
         {
-          headline: '15:1',
+          headline: '100',
           headline_prefix: '',
-          headline_suffix: '',
-          stat_description: 'STUDENT-TO-FACULTY RATIO',
-          stat_content: 'Get to know your professors.',
+          headline_suffix: '%',
+          stat_description: 'JOB PLACEMENT RATE WITHIN 10 MONTHS OF GRADUATION',
+          stat_content: '10% higher than the national average.',
         },
         {
-          headline: '23',
+          headline: '9',
           headline_prefix: '',
-          headline_suffix: '',
-          stat_description: 'INTERNATIONAL FULBRIGHT SCHOLARS IN 2020',
-          stat_content: 'That’s the same as some Ivy League schools.',
+          headline_suffix: 'th',
+          stat_description: 'HIGHEST EMPLOYMENT RATE FOR FULL-TIME JOBS, LAW.COM',
+          stat_content: 'Gain real-world skills that make resumés stand out.',
         },
         {
-          headline: '1 in 3',
+          headline: '94',
           headline_prefix: '',
-          headline_suffix: '',
-          stat_description: 'UNDERGRADS PARTICIPATE IN RESEARCH',
-          stat_content: 'Gain experience now.',
+          headline_suffix: '%',
+          stat_description: 'BAR PASSAGE RATE PASSAGE RATE AMONG FIRST-TIME TAKERS',
+          stat_content: '13% higher than the national average.',
         }
       ],
       menu_items: [
