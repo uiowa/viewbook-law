@@ -407,11 +407,18 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
   }
 }
 
+@media (max-width: 768px) and (min-width: 0) {
+  .menu-group__wrapper .menu-item:not(:last-child) .bttn--outline {
+    border-bottom: none;
+  }
+}
+
 @media (max-width: 93.75em) and (min-width: 84.375em) {
   .grid-panel__content .headline--uppercase {
     font-size: calc(2.5em + .3vw) !important;
   }
 }
+
 
 .element--circle-list ul {
   margin-top: 1.05rem;
