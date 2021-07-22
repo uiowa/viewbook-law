@@ -1,5 +1,5 @@
 <template>
-    <div class="card" :class="class">
+    <div class="card click-container" :class="class">
         <div v-if="image" class="card__media" :class="media_class">
             <a v-if="link_element == 'image'" :href="link_url">
                 <img class="card__img" :class="img_class" :src="image" alt="Alt Text" loading="lazy">
@@ -15,9 +15,10 @@
                 :headline_class="headline_class"
                 :headline="title"
                 :headline_url="link_url"
+                :headline_url_class="headline_url_class"
             />
 
-            <div v-if="author!==''" class="card__author">{{ author }}</div>
+            <div v-if="author!==''" class="card__subtitle">{{ author }}</div>
 
             <p v-html="content"></p>
 
@@ -59,6 +60,9 @@ export default {
           type: String
         },
         headline_class: {
+          type: String
+        },
+        headline_url_class: {
           type: String
         },
         image: {
