@@ -9,10 +9,11 @@
 
 			<siteName
 				site_name_tag="h2"
+        :site_name="site_name"
+        :site_name_link="site_name_link"
 			/>
 
 			<!-- This would be a site slogan -->
-
 			<div v-html="contact_info"></div>
 
 			<div class="footer__links footer__links--icon">
@@ -35,6 +36,9 @@
 					<li>
 						<a href="https://uiowa.edu/accessibility">Accessibility</a>
 					</li>
+          <li>
+            <a href="https://nativeamericancouncil.org.uiowa.edu">UI Indigenous Land Acknowledgement</a>
+          </li>
 				</ul>
 			</div>
 		</div>
@@ -57,6 +61,12 @@ export default {
 		contact_info: {
 			type: String
 		},
+    site_name: {
+      type: String
+    },
+    site_name_link: {
+      type: String
+    },
 		/*
 			Array of items with the following structure:
 			{

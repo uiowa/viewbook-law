@@ -1,6 +1,6 @@
 <template>
     <component :is="headline_level" :class="headline_class">
-        <a v-if="headline_url" :href="headline_url" :aria-describedby="headline_aria ? headline_aria :''">
+        <a v-if="headline_url" :class="headline_url_class" :href="headline_url" :aria-describedby="headline_aria ? headline_aria :''">
             <span v-if="headline_prefix" class="headline__prefix">{{headline_prefix}}</span>
             <span v-html="headline" class="headline__text"></span>
             <span v-if="headline_suffix" class="headline__suffix">{{headline_suffix}}</span>
@@ -29,6 +29,9 @@ export default {
       type: String,
     },
     headline_url: {
+      type: String,
+    },
+    headline_url_class: {
       type: String,
     },
     headline_aria: {
