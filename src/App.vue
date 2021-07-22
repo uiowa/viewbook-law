@@ -206,7 +206,10 @@ personal approach to legal education makes it easy to build strong connections w
   </div>
 </div>
 
+
 <footerSection
+  site_name="College of Law"
+  site_name_link="https://law.uiowa.edu/"
   :contact_info="contact_info"
   :social_media_links="social_media_links"
 />
@@ -342,27 +345,27 @@ export default {
           section_id: 'hawkeyes'
         },
       ],
-      contact_info: '<p>Iowa City, Iowa 52242<br><a href=""><i class="fas fa-phone"></i> 123-456-7890</a><br /></p>',
+      contact_info: '<p>280 Boyd Law Building<br />Iowa City, Iowa 52242<br><a href="tel:13193359034"><i class="fas fa-phone"></i> 319-335-9034</a><br /></p>',
       social_media_links: [
         {
           text: 'Facebook',
-          url: '',
+          url: 'https://www.facebook.com/IowaLawSchool',
           icon_class: 'fab fa-facebook-square'
         },
         {
           text: 'Instagram',
-          url: '',
+          url: 'https://www.instagram.com/uiowalawschool',
           icon_class: 'fab fa-instagram'
         },
         {
           text:  'Twitter',
-          url: '',
+          url: 'https://twitter.com/IowaLawSchool',
           icon_class: 'fab fa-twitter-square'
         },
         {
-          text: 'Youtube',
-          url: '',
-          icon_class: 'fab fa-youtube'
+          text:  'LinkedIn',
+          url: 'https://www.linkedin.com/school/university-of-iowa-college-of-law',
+          icon_class: 'fab fa-linkedin'
         }
       ]
     }
