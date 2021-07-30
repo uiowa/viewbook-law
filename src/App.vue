@@ -456,6 +456,10 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
   }
 }
 
+.bg--gold--pattern--brain .headline__text {
+  color: black;
+}
+
   // Override and condense for smaller devices.
 .menu-group__wrapper {
   transition: padding 0.5s ease;
