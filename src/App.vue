@@ -70,8 +70,8 @@
   link_url= 'https://law.uiowa.edu/academics'
   image= 'images/viewbook/2.jpg'
   headline= 'Stand Out from the crowd'
-  button_text= 'Academics'
-  button_link= ''
+  button_text= 'View our Curriculum'
+  button_link= 'https://law.uiowa.edu/academics'
   grid_panel_type= 'grid-panel grid-panel--asymmetrical'
   grid_panel_first_column= 'grid-panel__column-image-left'
   grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
@@ -89,8 +89,8 @@ personal approach to legal education makes it easy to build strong connections w
   link_url= 'https://law.uiowa.edu/faculty-and-scholarship'
   image= 'images/viewbook/3.jpg'
   headline= 'Learn from expert legal scholars'
-  button_text= 'Faculty and Scholarship'
-  button_link= ''
+  button_text= 'Meet our Faculty'
+  button_link= 'https://law.uiowa.edu/faculty-and-scholarship'
   grid_panel_type= 'grid-panel grid-panel--asymmetrical'
   grid_panel_first_column= 'grid-panel__column-content-left grid-panel__content'
   grid_panel_second_column= 'grid-panel__column-image-right'
@@ -106,8 +106,8 @@ personal approach to legal education makes it easy to build strong connections w
   link_url= 'https://law.uiowa.edu/experiential-learning'
   image= 'images/viewbook/4.jpg'
   headline= 'Take Real Action and make real change'
-  button_text= 'Experiential Learning'
-  button_link= ''
+  button_text= 'Explore Experiential Opportunities'
+  button_link= 'https://law.uiowa.edu/experiential-learning'
   grid_panel_type= 'grid-panel grid-panel--asymmetrical'
   grid_panel_first_column= 'grid-panel__column-image-left'
   grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
@@ -124,8 +124,8 @@ personal approach to legal education makes it easy to build strong connections w
   link_url= 'https://law.uiowa.edu/student-experience/student-life/iowa-city'
   image= 'images/viewbook/5.jpg'
   headline= 'The Best Place to live'
-  button_text= 'Student Life'
-  button_link= ''
+  button_text= 'Discover Iowa City'
+  button_link= 'https://law.uiowa.edu/student-experience/student-life/iowa-city'
   grid_panel_type= 'grid-panel grid-panel--asymmetrical'
   grid_panel_first_column= 'grid-panel__column-content-left grid-panel__content'
   grid_panel_second_column= 'grid-panel__column-image-right'
@@ -142,8 +142,8 @@ personal approach to legal education makes it easy to build strong connections w
   link_url= 'https://law.uiowa.edu/careers'
   image= 'images/viewbook/6.jpg'
   headline= 'Career Advice that gets you hired'
-  button_text= 'Careers'
-  button_link= ''
+  button_text= 'Learn About Career Services'
+  button_link= 'https://law.uiowa.edu/careers'
   grid_panel_type= 'grid-panel grid-panel--asymmetrical'
   grid_panel_first_column= 'grid-panel__column-image-left'
   grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
@@ -156,6 +156,20 @@ personal approach to legal education makes it easy to build strong connections w
   <div class="v-dots-scroll-target" id="hawkeyes"></div>
 </div>
 
+  <banner
+    image=""
+    banner_size="small"
+    banner_vertical_alignment="vertical-center"
+    banner_horizontal_alignment="horizontal-center"
+    banner_classes="bg--gold--pattern--brain brain banner--slim-title"
+    banner_type=""
+    banner_overlay= ""
+    banner_text=''
+    banner_title='See what students are saying about Iowa Law'
+    banner_title_classes='headline headline--uppercase'
+  />
+
+
 <div class="grid--threecol--33-34-33">
   <div class="list-container">
     <Card
@@ -165,7 +179,7 @@ personal approach to legal education makes it easy to build strong connections w
       content="
         'I wanted to see health law from the client’s perspective. Getting to interact with patients and medical providers for a week was absolutely invaluable. I would honestly say this experience was the single-most practical learning experience I’ve had throughout my legal education.'
       "
-      class="card--stacked bg--black card--centered-left card--alignment-left"
+      class="card--stacked card--centered-left card--alignment-left card--padded"
       media_class="card__media--large card__media card__media"
       img_class=""
       headline_class="h3 headline headline--uppercase"
@@ -180,7 +194,7 @@ personal approach to legal education makes it easy to build strong connections w
       content="
         'My goal is to help the most vulnerable people in our criminal legal system, and the best way to do that is to provide an outstanding legal defense for those who have been wrongfully accused and treated unfairly, to stand up in court and tell their story.'
       "
-      class="card--stacked bg--black card--centered-left card--alignment-left"
+      class="card--stacked card--centered-left card--alignment-left card--padded"
       media_class="card__media--large card__media card__media"
       img_class=""
       headline_class="h3 headline headline--uppercase"
@@ -195,7 +209,7 @@ personal approach to legal education makes it easy to build strong connections w
       content="
         'While writing my brief and preparing for oral arguments, I realized that Iowa Law had equipped me with the necessary skills to excel. Participating in the Appellate Advocacy program made me more confident, prepared, and equipped to take on the legal world and my legal career.'
       "
-      class="card--stacked bg--black card--centered-left card--alignment-left"
+      class="card--stacked card--centered-left card--alignment-left card--padded"
       media_class="card__media--large card__media card__media"
       img_class=""
       headline_class="h3 headline headline--uppercase"
@@ -419,6 +433,12 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
   }
 }
 
+.grid-panel__column-content-right.grid-panel__content, .grid-panel__column-content-left.grid-panel__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 3.5rem 3rem 3rem;
+}
 
 .element--circle-list ul {
   margin-top: 1.05rem;
@@ -426,11 +446,21 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
   margin-left: 1.875rem;
 }
 
-.card p {
-  margin-top: 0.625rem;
+.card {
+  p {
+    margin-top: 0.625rem;
+  }
+
+  &--padded .card__body {
+    padding: 2rem;
+  }
 }
 
-// Override and condense for smaller devices.
+.bg--gold--pattern--brain .headline__text {
+  color: black;
+}
+
+  // Override and condense for smaller devices.
 .menu-group__wrapper {
   transition: padding 0.5s ease;
   padding: 0.3rem 0;
