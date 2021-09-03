@@ -499,12 +499,18 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
   filter: brightness(150%) saturate(150%);
 }
 
-.banner--gradient-bottom::after {
-  background: linear-gradient(180deg,transparent 0,rgba(0,0,0,.65) 70%);
+.banner::after {
+  background: rgba(0,0,0,.5);
 }
 
-.banner--gradient-bottom.lighter-gradient::after {
-  background: linear-gradient(180deg, transparent 0, rgba(0, 0, 0, 0.37) 70%);
+@include breakpoint(sm) {
+  .banner--gradient-bottom::after {
+    background: linear-gradient(180deg,transparent 0,rgba(0,0,0,.65) 70%);
+  }
+
+  .banner--gradient-bottom.lighter-gradient::after {
+    background: linear-gradient(180deg, transparent 0, rgba(0, 0, 0, 0.37) 70%);
+  }
 }
 
 .card {
