@@ -76,9 +76,7 @@
   grid_panel_first_column= 'grid-panel__column-image-left'
   grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
   grid_content_position= 'second'
-  grid_panel_content= '<p>Iowa Law offers a unique opportunity to learn and interact in an intimate collegial setting. Our
-personal approach to legal education makes it easy to build strong connections with your professors and gives you the flexibility to explore interdisciplinary legal issues across campus. With smaller class sizes that encourage teamwork, you’ll collaborate—not compete with your classmates. Together, you’ll exercise your knowledge and engage in constructive discussions that extend far beyond the classroom.
-</p>'
+  grid_panel_content= '<p>Iowa Law offers a unique opportunity to learn and interact in an intimate collegial setting. Our smaller class sizes allow students to work together and partner with experts across campus in fields such as engineering and health care to broaden their legal perspectives. Our faculty maintain an “open-door” policy where conversations extend beyond course material and into a student’s long-term goals. So when you ask for a letter of recommendation, you can be sure it will stand out—not only for its authenticity, but because it comes from someone who truly knows you.</p>'
 />
 
 <div class="v-dots-scroll-spacer">
@@ -95,7 +93,7 @@ personal approach to legal education makes it easy to build strong connections w
   grid_panel_first_column= 'grid-panel__column-content-left grid-panel__content'
   grid_panel_second_column= 'grid-panel__column-image-right'
   grid_content_position= 'first'
-  grid_panel_content= '<p>Recognized thinkers, scholars, and writers, Iowa Law boasts an experienced, student-centered faculty dedicated to the development of practice-ready lawyers. Our 7:1 student-to-faculty ratio will ensure you receive the individualized instruction and support you deserve. As the best public university for writing in the U.S., we invest in full-time professors focused solely on your growth in research, analytical thinking, and persuasive communication—skills you can bring with you not only to the practice of law, but to any career.</p>'
+  grid_panel_content= '<p>Iowa boasts an experienced, student-centered faculty dedicated to the development of practice-ready lawyers. Their expertise translates into engaging coursework across the legal spectrum¬, from corporate and business law to international law and property law. As the best public university for writing in the U.S., our faculty are dedicated to developing your skills in research, analytical thinking, and persuasive communication¬– skills you can bring with you not only to the practice of law, but to any career.</p>'
 />
 
 <div class="v-dots-scroll-spacer">
@@ -130,7 +128,7 @@ personal approach to legal education makes it easy to build strong connections w
   grid_panel_first_column= 'grid-panel__column-content-left grid-panel__content'
   grid_panel_second_column= 'grid-panel__column-image-right'
   grid_content_position= 'first'
-  grid_panel_content= '<p>Recognized as the #20 Best Place to live by Livability.com, Iowa City blends big city amenities with the comfort and affordability of a small town. Where downtown seamlessly blends with the heart of campus, you’ll find hundreds of restaurants, BIG Ten athletics, and a dynamic art scene all within walking distance from the Law Building. And with annual festivals, block parties, and plenty of other events scheduled throughout the year, you’ll find it easy to balance the rigors of study with fun and unforgettable experiences.</p>'
+  grid_panel_content= '<p>Iowa City is considered one of the best places to live in the country. With big-city amenities and the comfort of a small town, members of our community reap the best of both worlds. Where downtown seamlessly blends with the heart of campus, you’ll find hundreds of restaurants, BIG Ten athletics, and a dynamic art scene all within walking distance from the Boyd Law Building. And with annual festivals, block parties, and plenty of exciting events scheduled throughout the year, you’ll find it easy to balance the rigors of law school with fun and new experiences.</p>'
 />
 
 
@@ -148,36 +146,36 @@ personal approach to legal education makes it easy to build strong connections w
   grid_panel_first_column= 'grid-panel__column-image-left'
   grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
   grid_content_position= 'second'
-  grid_panel_content= '<p>Beginning your first semester, Iowa Law will provide you with the resources and support you’ll need to succeed in the professional world. You’ll learn how to develop résumé, emphasize your strengths, and identify possibilities that align with your career goals. Our dedicated career counselors will help you navigate your job search and arrange valuable opportunities to connect with prospective employers both on campus and around the world. With a degree from Iowa Law, you can succeed anywhere.
-</p>'
+  grid_panel_content= '<p>Beginning your first semester, Iowa Law will provide you with the resources and support you’ll
+need to succeed in the professional world. You’ll learn how to develop résumé, emphasize your strengths, and identify possibilities that align with your career goals. Our dedicated career counselors will help you navigate your job search, explore your options, and arrange valuable opportunities to connect with prospective employers both on campus and around the world.</p>'
 />
 
 <div class="v-dots-scroll-spacer">
   <div class="v-dots-scroll-target" id="hawkeyes"></div>
 </div>
 
-  <banner
-    image=""
-    banner_size="small"
-    banner_vertical_alignment="vertical-center"
-    banner_horizontal_alignment="horizontal-center"
-    banner_classes="bg--gold--pattern--brain brain banner--slim-title"
-    banner_type=""
-    banner_overlay= ""
-    banner_text=''
-    banner_title='See what students are saying about Iowa Law'
-    banner_title_classes='headline headline--uppercase'
-  />
+<banner
+  image=""
+  banner_size="small"
+  banner_vertical_alignment="vertical-center"
+  banner_horizontal_alignment="horizontal-center"
+  banner_classes="bg--gold--pattern--brain brain banner--slim-title"
+  banner_type=""
+  banner_overlay= ""
+  banner_text=''
+  banner_title='See what students are saying about Iowa Law'
+  banner_title_classes='headline headline--uppercase'
+/>
 
 
 <div class="grid--threecol--33-34-33">
   <div class="list-container">
     <Card
       image="images/viewbook/hayleigh-hansen.JPG"
-      title="Specialize in your interests<br /><b>Hayleigh Hansen</b>"
+      title="Specialize in your interests<br /><b>Hayleigh Hansen-Boardman</b>"
       author="Juris Doctor, '21"
       content="
-        'I wanted to see health law from the client’s perspective. Getting to interact with patients and medical providers for a week was absolutely invaluable. I would honestly say this experience was the single-most practical learning experience I’ve had throughout my legal education.'
+        'I wanted to see health law from the client’s perspective. Getting to interact with patients and medical providers for a week was absolutely invaluable. I would honestly say that experience was the single-most practical learning experience I had throughout my legal education.'
       "
       class="card--stacked card--centered-left card--alignment-left card--padded"
       media_class="card__media--large card__media card__media"
@@ -219,6 +217,29 @@ personal approach to legal education makes it easy to build strong connections w
     />
   </div>
 </div>
+
+<div class="v-dots-scroll-spacer">
+  <div class="v-dots-scroll-target" id="anywhere"></div>
+</div>
+
+<statWrapper
+  :stats="stats_2"
+/>
+
+<banner
+  image="images/viewbook/7.jpg"
+  banner_size="large"
+  banner_vertical_alignment="vertical-center"
+  banner_horizontal_alignment="horizontal-center"
+  banner_classes=""
+  banner_type="image"
+  banner_overlay= "gradient-center"
+  banner_text='<p>Iowa Law is an ideal place to study law: small enough that your professors will know you well, yet large enough to be a launchpad for opportunity. With an Iowa Law degree, you’ll be prepared to practice law anywhere around the world. From private firms and Fortune 100 companies to global nonprofits and government agencies, you’ll find that Iowa alumni aren’t just in Iowa, they’re everywhere.</p>'
+  banner_title='First Iowa <span>then anywhere</span>'
+  banner_title_classes='headline headline--uppercase'
+/>
+
+
 
 
 <footerSection
@@ -289,11 +310,11 @@ export default {
           stat_content: '10% higher than the national average.',
         },
         {
-          headline: '9',
+          headline: 'Best',
           headline_prefix: '',
-          headline_suffix: 'th',
-          stat_description: 'HIGHEST EMPLOYMENT RATE FOR FULL-TIME JOBS, LAW.COM',
-          stat_content: 'Gain real-world skills that make resumés stand out.',
+          headline_suffix: '',
+          stat_description: 'VALUE LAW SCHOOL BY THE NATIONAL JURIST FOR 7 CONSECUTIVE YEARS',
+          stat_content: 'Based on tuition costs, bar passage rates, and employment success.',
         },
         {
           headline: '94',
@@ -303,15 +324,38 @@ export default {
           stat_content: '13% higher than the national average.',
         }
       ],
+      stats_2: [
+        {
+          headline: '10,500',
+          headline_prefix: '',
+          headline_suffix: '+',
+          stat_description: 'ALUMNI IN ALL 50 STATES',
+          stat_content: 'AND 43 COUNTRIES',
+        },
+        {
+          headline: '9',
+          headline_prefix: '',
+          headline_suffix: 'th',
+          stat_description: 'HIGHEST EMPLOYMENT RATE',
+          stat_content: 'FOR FULL-TIME JOBS BY LAW.COM',
+        },
+        {
+          headline: '100',
+          headline_prefix: '',
+          headline_suffix: '+',
+          stat_description: 'EMPLOYERS COME TO CAMPUS',
+          stat_content: 'EACH YEAR FOR ON CAMPUS INTERVIEWS',
+        }
+      ],
       menu_items: [
         {
           text: 'Apply',
-          url: 'https://law.uiowa.edu/admissions/apply',
+          url: 'https://law.uiowa.edu/apply',
           item_class: 'bttn bttn--outline bttn--tertiary bttn--transparent bttn--caps bttn--apply'
         },
         {
           text:  'Visit',
-          url: 'https://law.uiowa.edu/schedule-tour',
+          url: 'https://law.uiowa.edu/admissions/admissions-events',
           item_class: 'bttn bttn--outline bttn--tertiary bttn--transparent bttn--caps bttn--visit'
         },
         {
@@ -357,6 +401,10 @@ export default {
         {
           section_title: 'WHAT ARE HAWKEYES SAYING?',
           section_id: 'hawkeyes'
+        },
+        {
+          section_title: 'FIRST IOWA THEN ANYWHERE',
+          section_id: 'anywhere'
         },
       ],
       contact_info: '<p>280 Boyd Law Building<br />Iowa City, Iowa 52242<br><a href="tel:13193359034"><i class="fas fa-phone"></i> 319-335-9034</a><br /></p>',
@@ -444,6 +492,10 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
   margin-top: 1.05rem;
   margin-bottom: 1.05rem;
   margin-left: 1.875rem;
+}
+
+.banner__image img {
+  filter: brightness(150%) saturate(150%);
 }
 
 .card {
