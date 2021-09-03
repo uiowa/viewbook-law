@@ -19,9 +19,9 @@
   banner_size="large"
   banner_vertical_alignment="vertical-center"
   banner_horizontal_alignment="horizontal-center"
-  banner_classes=""
+  banner_classes="lighter-gradient"
   banner_type="image"
-  banner_overlay= "gradient-center"
+  banner_overlay= "gradient-bottom"
   banner_text='<p>World-class academics, close connections with faculty, collaborative culture, dynamic campus life, and invaluable resources to help you prepare for a career you love.</p>'
   banner_title='This is <span>Iowa Law</span>'
   banner_title_classes='headline headline--uppercase'
@@ -233,7 +233,7 @@ need to succeed in the professional world. You’ll learn how to develop résum�
   banner_horizontal_alignment="horizontal-center"
   banner_classes=""
   banner_type="image"
-  banner_overlay= "gradient-center"
+  banner_overlay= "gradient-bottom"
   banner_text='<p>Iowa Law is an ideal place to study law: small enough that your professors will know you well, yet large enough to be a launchpad for opportunity. With an Iowa Law degree, you’ll be prepared to practice law anywhere around the world. From private firms and Fortune 100 companies to global nonprofits and government agencies, you’ll find that Iowa alumni aren’t just in Iowa, they’re everywhere.</p>'
   banner_title='First Iowa <span>then anywhere</span>'
   banner_title_classes='headline headline--uppercase'
@@ -330,21 +330,21 @@ export default {
           headline_prefix: '',
           headline_suffix: '+',
           stat_description: 'ALUMNI IN ALL 50 STATES',
-          stat_content: 'AND 43 COUNTRIES',
+          stat_content: 'And 43 countries',
         },
         {
           headline: '9',
           headline_prefix: '',
           headline_suffix: 'th',
           stat_description: 'HIGHEST EMPLOYMENT RATE',
-          stat_content: 'FOR FULL-TIME JOBS BY LAW.COM',
+          stat_content: 'For full-time jobs by law.com',
         },
         {
           headline: '100',
           headline_prefix: '',
           headline_suffix: '+',
           stat_description: 'EMPLOYERS COME TO CAMPUS',
-          stat_content: 'EACH YEAR FOR ON CAMPUS INTERVIEWS',
+          stat_content: 'Each year for on campus interviews',
         }
       ],
       menu_items: [
@@ -459,7 +459,8 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
 }
 
 .headline__text b {
-  color: $primary;
+  color: $grey;
+  font-weight: normal;
 }
 
 @media (min-width: 992px) {
@@ -498,6 +499,20 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
   filter: brightness(150%) saturate(150%);
 }
 
+.banner::after {
+  background: rgba(0,0,0,.5);
+}
+
+@include breakpoint(sm) {
+  .banner--gradient-bottom::after {
+    background: linear-gradient(180deg,transparent 0,rgba(0,0,0,.65) 70%);
+  }
+
+  .banner--gradient-bottom.lighter-gradient::after {
+    background: linear-gradient(180deg, transparent 0, rgba(0, 0, 0, 0.37) 70%);
+  }
+}
+
 .card {
   p {
     margin-top: 0.625rem;
@@ -512,7 +527,7 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
   color: black;
 }
 
-  // Override and condense for smaller devices.
+// Override and condense for smaller devices.
 .menu-group__wrapper {
   transition: padding 0.5s ease;
   padding: 0.3rem 0;
@@ -534,6 +549,10 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
     .bttn--outline {
       border: 1px solid rgb(21, 21, 21);
     }
+  }
+
+  .card {
+    border: none;
   }
 }
 </style>
