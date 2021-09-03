@@ -550,5 +550,9 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
       border: 1px solid rgb(21, 21, 21);
     }
   }
+
+  .card {
+    border: none;
+  }
 }
 </style>
