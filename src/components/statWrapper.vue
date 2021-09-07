@@ -1,5 +1,5 @@
 <template>
-<div class="stat__wrapper bg--black">
+<div :class="getStatClasses()">
   <template v-for="(stat, index) in stats" :key="index">
     <stat
       :headline="stat.headline"
@@ -20,6 +20,9 @@ export default {
     name: "statWrapper",
 
     props: {
+      stat_classes: {
+        type: String
+      },
       stats: {
         /*
           Array of items with the following structure:
@@ -37,6 +40,16 @@ export default {
     },
     components: {
       Stat
+    },
+    methods: {
+      /*
+          Adds any extra classes to the default necessary classes for a statWrapper.
+      */
+      getStatClasses() {
+        let stat_classes = this.$props.stat_classes ? this.$props.stat_classes : '';
+        let classes = "stat__wrapper bg--black " + stat_classes;
+        return classes;
+      }
     }
 }
 </script>

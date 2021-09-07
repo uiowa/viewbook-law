@@ -93,7 +93,7 @@
   grid_panel_first_column= 'grid-panel__column-content-left grid-panel__content'
   grid_panel_second_column= 'grid-panel__column-image-right'
   grid_content_position= 'first'
-  grid_panel_content= '<p>Iowa boasts an experienced, student-centered faculty dedicated to the development of practice-ready lawyers. Their expertise translates into engaging coursework across the legal spectrum¬, from corporate and business law to international law and property law. As the best public university for writing in the U.S., our faculty are dedicated to developing your skills in research, analytical thinking, and persuasive communication¬– skills you can bring with you not only to the practice of law, but to any career.</p>'
+  grid_panel_content= '<p>Iowa boasts an experienced, student-centered faculty dedicated to the development of practice-ready lawyers. Their expertise translates into engaging coursework across the legal spectrum— from corporate and business law to international law and property law. As the best public university for writing in the U.S., our faculty are dedicated to developing your skills in research, analytical thinking, and persuasive communication, skills you can bring with you not only to the practice of law, but to any career.</p>'
 />
 
 <div class="v-dots-scroll-spacer">
@@ -224,6 +224,7 @@ need to succeed in the professional world. You’ll learn how to develop résum�
 
 <statWrapper
   :stats="stats_2"
+  stat_classes="no--hover"
 />
 
 <banner
@@ -299,7 +300,7 @@ export default {
           headline: '29',
           headline_prefix: '#',
           headline_suffix: '',
-          stat_description: 'BEST LAW SCHOOL BY U.S. NEWS & WORLD REPORT',
+          stat_description: 'BEST LAW SCHOOL BY <i>U.S. NEWS & WORLD REPORT</i>',
           stat_content: 'Among 193 nationally ranked law schools.',
         },
         {
@@ -313,7 +314,7 @@ export default {
           headline: 'Best',
           headline_prefix: '',
           headline_suffix: '',
-          stat_description: 'VALUE LAW SCHOOL BY THE NATIONAL JURIST FOR 7 CONSECUTIVE YEARS',
+          stat_description: 'VALUE LAW SCHOOL BY THE <i>NATIONAL JURIST</i> FOR 7 CONSECUTIVE YEARS',
           stat_content: 'Based on tuition costs, bar passage rates, and employment success.',
         },
         {
@@ -329,22 +330,22 @@ export default {
           headline: '10,500',
           headline_prefix: '',
           headline_suffix: '+',
-          stat_description: 'ALUMNI IN ALL 50 STATES',
-          stat_content: 'And 43 countries',
+          stat_description: 'ALUMNI IN ALL 50 STATES and 43 countries',
+          stat_content: '',
         },
         {
           headline: '9',
           headline_prefix: '',
           headline_suffix: 'th',
-          stat_description: 'HIGHEST EMPLOYMENT RATE',
-          stat_content: 'For full-time jobs by law.com',
+          stat_description: 'HIGHEST EMPLOYMENT RATE for full-time jobs by law.com',
+          stat_content: '',
         },
         {
           headline: '100',
           headline_prefix: '',
           headline_suffix: '+',
-          stat_description: 'EMPLOYERS COME TO CAMPUS',
-          stat_content: 'Each year for on campus interviews',
+          stat_description: 'EMPLOYERS COME TO CAMPUS each year for on campus interviews',
+          stat_content: '',
         }
       ],
       menu_items: [
@@ -555,4 +556,15 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
     border: none;
   }
 }
+
+.no--hover .stat__grid {
+  cursor: default;
+  p.stat__content {
+    padding-top: 0;
+    margin-top: 0;
+    border-top: none;
+    flex-basis: 0%;
+  }
+}
+
 </style>
