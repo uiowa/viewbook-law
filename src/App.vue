@@ -300,7 +300,7 @@ export default {
           headline: '29',
           headline_prefix: '#',
           headline_suffix: '',
-          stat_description: 'BEST LAW SCHOOL BY <br><i>U.S. NEWS & WORLD REPORT</i>',
+          stat_description: 'BEST LAW SCHOOL BY <i style="display: block">U.S. NEWS & WORLD REPORT</i>',
           stat_content: 'Among 193 nationally ranked law schools.',
         },
         {
