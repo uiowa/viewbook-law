@@ -314,7 +314,7 @@ export default {
           headline: 'Best',
           headline_prefix: '',
           headline_suffix: '',
-          stat_description: 'VALUE LAW SCHOOL BY THE <i>NATIONAL JURIST</i><br> FOR 7 CONSECUTIVE YEARS',
+          stat_description: 'VALUE LAW SCHOOL FOR 7 CONSECUTIVE YEARS BY THE <i>NATIONAL JURIST</i>',
           stat_content: 'Based on tuition costs, bar passage rates, and employment success.',
         },
         {
