@@ -93,7 +93,7 @@
   grid_panel_first_column= 'grid-panel__column-content-left grid-panel__content'
   grid_panel_second_column= 'grid-panel__column-image-right'
   grid_content_position= 'first'
-  grid_panel_content= '<p>Iowa boasts an experienced, student-centered faculty dedicated to the development of practice-ready lawyers. Their expertise translates into engaging coursework across the legal spectrum— from corporate and business law to international law and property law. As the best public university for writing in the U.S., our faculty are dedicated to developing your skills in research, analytical thinking, and persuasive communication, skills you can bring with you not only to the practice of law, but to any career.</p>'
+  grid_panel_content= '<p>Iowa boasts an experienced, student-centered faculty dedicated to the development of practice-ready lawyers. Their expertise translates into engaging coursework across the legal spectrum—from corporate and business law to international law and property law. As the best public university for writing in the U.S., our faculty are dedicated to developing your skills in research, analytical thinking, and persuasive communication, skills you can bring with you not only to the practice of law, but to any career.</p>'
 />
 
 <div class="v-dots-scroll-spacer">
@@ -110,7 +110,7 @@
   grid_panel_first_column= 'grid-panel__column-image-left'
   grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
   grid_content_position= 'second'
-  grid_panel_content= '<p>At Iowa Law, you’ll learn first-hand how to be an effective problem-solver in an everchanging society. Starting from day 1, you’ll learn how to model your legal skills to meaningfully assist members of the community. By your second or third year, you’ll have the ability to represent individuals in litigation, transactional work, and policy advocacy. From semester-long placement programs to moot court competitions, you’ll find endless opportunities to master your professional skills while gaining confidence to begin your career.</p>'
+  grid_panel_content= '<p>At Iowa Law, you’ll learn first-hand how to be an effective problem-solver in an everchanging society. Starting from day one, you’ll learn how to model your legal skills to meaningfully assist members of the community. By your second or third year, you’ll have the ability to represent individuals in litigation, transactional work, and policy advocacy. From semester-long placement programs to moot court competitions, you’ll find endless opportunities to master your professional skills while gaining confidence to begin your career.</p>'
 />
 
 
@@ -147,7 +147,7 @@
   grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
   grid_content_position= 'second'
   grid_panel_content= '<p>Beginning your first semester, Iowa Law will provide you with the resources and support you’ll
-need to succeed in the professional world. You’ll learn how to develop résumé, emphasize your strengths, and identify possibilities that align with your career goals. Our dedicated career counselors will help you navigate your job search, explore your options, and arrange valuable opportunities to connect with prospective employers both on campus and around the world.</p>'
+need to succeed in the professional world. You’ll learn how to develop a résumé, emphasize your strengths, and identify possibilities that align with your career goals. Our dedicated career counselors will help you navigate your job search, explore your options, and arrange valuable opportunities to connect with prospective employers both on campus and around the world.</p>'
 />
 
 <div class="v-dots-scroll-spacer">
@@ -173,7 +173,7 @@ need to succeed in the professional world. You’ll learn how to develop résum�
     <Card
       image="images/viewbook/hayleigh-hansen.JPG"
       title="Specialize in your interests<br /><b>Hayleigh Hansen-Boardman</b>"
-      author="Juris Doctor, '21"
+      author="Juris Doctor, '19"
       content="
         'I wanted to see health law from the client’s perspective. Getting to interact with patients and medical providers for a week was absolutely invaluable. I would honestly say that experience was the single-most practical learning experience I had throughout my legal education.'
       "
@@ -300,7 +300,7 @@ export default {
           headline: '29',
           headline_prefix: '#',
           headline_suffix: '',
-          stat_description: 'BEST LAW SCHOOL BY <i>U.S. NEWS & WORLD REPORT</i>',
+          stat_description: 'BEST LAW SCHOOL BY <br><i>U.S. NEWS & WORLD REPORT</i>',
           stat_content: 'Among 193 nationally ranked law schools.',
         },
         {
@@ -314,14 +314,14 @@ export default {
           headline: 'Best',
           headline_prefix: '',
           headline_suffix: '',
-          stat_description: 'VALUE LAW SCHOOL BY THE <i>NATIONAL JURIST</i> FOR 7 CONSECUTIVE YEARS',
+          stat_description: 'VALUE LAW SCHOOL BY THE <i>NATIONAL JURIST</i><br> FOR 7 CONSECUTIVE YEARS',
           stat_content: 'Based on tuition costs, bar passage rates, and employment success.',
         },
         {
           headline: '94',
           headline_prefix: '',
           headline_suffix: '%',
-          stat_description: 'BAR PASSAGE RATE PASSAGE RATE AMONG FIRST-TIME TAKERS',
+          stat_description: 'BAR PASSAGE RATE AMONG FIRST-TIME TAKERS',
           stat_content: '13% higher than the national average.',
         }
       ],
