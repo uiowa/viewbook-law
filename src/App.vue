@@ -489,6 +489,16 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
   }
 }
 
+// Stat fix to avoid inconsistent stacking below container breakpoint.
+@media (max-width: 81.375em) and (min-width: 768px) {
+  .stat--horizontal:not(.element--flex-center) .stat__description {
+    flex-basis: 80%;
+  }
+  .stat--horizontal:not(.element--flex-center) .stat__content {
+    flex-basis: 80%;
+  }
+}
+
 .grid-panel__column-content-right.grid-panel__content, .grid-panel__column-content-left.grid-panel__content {
   display: flex;
   flex-direction: column;
