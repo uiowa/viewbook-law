@@ -1,254 +1,268 @@
 <template>
-<!-- This template should give enough examples of what Vue components should look like.-->
-<!-- Notable example sections should have comments to help anyone new to the system understand them. -->
-<iowa-bar
-  iowa_bar_classes="iowa-bar--narrow"
-  site_name="College of Law"
-  site_name_link="https://law.uiowa.edu"
-/>
+  <!-- This template should give enough examples of what Vue components should look like.-->
+  <!-- Notable example sections should have comments to help anyone new to the system understand them. -->
+  <iowa-bar
+    iowa_bar_classes="iowa-bar--narrow"
+    site_name="College of Law"
+    site_name_link="https://law.uiowa.edu"
+  />
 
-<!-- This is an example of a vertical dots scroll spacer, -->
-<!-- Which is what the vertical dots menu will jump to when the corresponding dot is clicked -->
-<!-- The ID of the `v-dots-scroll-target` and its corresponding `section_id` in the `sections` array should match -->
-<div class="v-dots-scroll-spacer">
-  <div class="v-dots-scroll-target" id="hero-banner"></div>
-</div>
-
-<banner
-  image="images/viewbook/1.jpg"
-  banner_size="large"
-  banner_vertical_alignment="vertical-center"
-  banner_horizontal_alignment="horizontal-center"
-  banner_classes="lighter-gradient"
-  banner_type="image"
-  banner_overlay= "gradient-bottom"
-  banner_text='<p>World-class academics, close connections with faculty, collaborative culture, dynamic campus life, and invaluable resources to help you prepare for a career you love.</p>'
-  banner_title='This is <span>Iowa Law</span>'
-  banner_title_classes='headline headline--uppercase'
-/>
-
-<div role="region" class="menu-group__wrapper">
-  <div class="menu-group__container">
-    <menuGroup
-      :items="menu_items"
-    />
+  <!-- This is an example of a vertical dots scroll spacer, -->
+  <!-- Which is what the vertical dots menu will jump to when the corresponding dot is clicked -->
+  <!-- The ID of the `v-dots-scroll-target` and its corresponding `section_id` in the `sections` array should match -->
+  <div class="v-dots-scroll-spacer">
+    <div class="v-dots-scroll-target" id="hero-banner"></div>
   </div>
-</div>
 
-<verticalDots
-  :sections="sections"
-/>
+  <banner
+    image="images/viewbook/1.jpg"
+    banner_size="large"
+    banner_vertical_alignment="vertical-center"
+    banner_horizontal_alignment="horizontal-center"
+    banner_classes="lighter-gradient"
+    banner_type="image"
+    banner_overlay= "gradient-bottom"
+    banner_text='<p>Explore the breadth of the profession, excel in a legal landscape that fits your goals, and contribute to real change in society. With an Iowa Law degree, you can succeed anywhere.</p>'
+    banner_title='This is <span>Iowa Law</span>'
+    banner_title_classes='headline headline--uppercase'
+  />
 
-<!-- This is a great example of passing `props` in to a component inline. -->
-<!-- Anything that will be used as a String in the component can be written without a colon before it. -->
-<!-- Anything that does not (eg. Boolean, int, float) must have a colon in front of it. -->
-<!-- This tells Vue that it should evaluate it like a javascript variable. -->
-<!-- <stat
-  headline="34"
-  headline_prefix="#"
-  headline_suffix=""
-  stat_description="BEST PUBLIC UNIVERSITY BY U.S. NEWS & WORLD REPORT"
-  stat_content="Among the top 2% of universities worldwide."
-  :stat_vertical="true"
-/> -->
-
-<!-- This is a great example of passing props from the `data() { return { PROPS }}` area further down in this file.-->
-<!-- You can define props there to pass to any component. -->
-<!-- However, you must prefix every component used this way with a colon. -->
-<div class="v-dots-scroll-spacer">
-  <div class="v-dots-scroll-target" id="stats"></div>
-</div>
-<statWrapper
-  :stats="stats_1"
-/>
-
-<div class="v-dots-scroll-spacer">
-  <div class="v-dots-scroll-target" id="stand"></div>
-</div>
-
-<grid-panel
-  link_url= 'https://law.uiowa.edu/academics'
-  image= 'images/viewbook/2.jpg'
-  headline= 'Stand Out from the crowd'
-  button_text= 'View our Curriculum'
-  button_link= 'https://law.uiowa.edu/academics'
-  grid_panel_type= 'grid-panel grid-panel--asymmetrical'
-  grid_panel_first_column= 'grid-panel__column-image-left'
-  grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
-  grid_content_position= 'second'
-  grid_panel_content= '<p>Iowa Law offers a unique opportunity to learn and interact in an intimate collegial setting. Our smaller class sizes allow students to work together and partner with experts across campus in fields such as engineering and health care to broaden their legal perspectives. Our faculty maintain an “open-door” policy where conversations extend beyond course material and into a student’s long-term goals. So when you ask for a letter of recommendation, you can be sure it will stand out—not only for its authenticity, but because it comes from someone who truly knows you.</p>'
-/>
-
-<div class="v-dots-scroll-spacer">
-  <div class="v-dots-scroll-target" id="learn"></div>
-</div>
-
-<grid-panel
-  link_url= 'https://law.uiowa.edu/faculty-and-scholarship'
-  image= 'images/viewbook/3.jpg'
-  headline= 'Learn from expert legal scholars'
-  button_text= 'Meet our Faculty'
-  button_link= 'https://law.uiowa.edu/faculty-and-scholarship'
-  grid_panel_type= 'grid-panel grid-panel--asymmetrical'
-  grid_panel_first_column= 'grid-panel__column-content-left grid-panel__content'
-  grid_panel_second_column= 'grid-panel__column-image-right'
-  grid_content_position= 'first'
-  grid_panel_content= '<p>Iowa boasts an experienced, student-centered faculty dedicated to the development of practice-ready lawyers. Their expertise translates into engaging coursework across the legal spectrum—from corporate and business law to international law and property law. As the best public university for writing in the U.S., our faculty are dedicated to developing your skills in research, analytical thinking, and persuasive communication, skills you can bring with you not only to the practice of law, but to any career.</p>'
-/>
-
-<div class="v-dots-scroll-spacer">
-  <div class="v-dots-scroll-target" id="take"></div>
-</div>
-
-<grid-panel
-  link_url= 'https://law.uiowa.edu/experiential-learning'
-  image= 'images/viewbook/4.jpg'
-  headline= 'Take Real Action and make real change'
-  button_text= 'Explore Experiential Opportunities'
-  button_link= 'https://law.uiowa.edu/experiential-learning'
-  grid_panel_type= 'grid-panel grid-panel--asymmetrical'
-  grid_panel_first_column= 'grid-panel__column-image-left'
-  grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
-  grid_content_position= 'second'
-  grid_panel_content= '<p>At Iowa Law, you’ll learn first-hand how to be an effective problem-solver in an everchanging society. Starting from day one, you’ll learn how to model your legal skills to meaningfully assist members of the community. By your second or third year, you’ll have the ability to represent individuals in litigation, transactional work, and policy advocacy. From semester-long placement programs to moot court competitions, you’ll find endless opportunities to master your professional skills while gaining confidence to begin your career.</p>'
-/>
-
-
-<div class="v-dots-scroll-spacer">
-  <div class="v-dots-scroll-target" id="best"></div>
-</div>
-
-<grid-panel
-  link_url= 'https://law.uiowa.edu/student-experience/student-life/iowa-city'
-  image= 'images/viewbook/5.jpg'
-  headline= 'The Best Place to live'
-  button_text= 'Discover Iowa City'
-  button_link= 'https://law.uiowa.edu/student-experience/student-life/iowa-city'
-  grid_panel_type= 'grid-panel grid-panel--asymmetrical'
-  grid_panel_first_column= 'grid-panel__column-content-left grid-panel__content'
-  grid_panel_second_column= 'grid-panel__column-image-right'
-  grid_content_position= 'first'
-  grid_panel_content= '<p>Iowa City is considered one of the best places to live in the country. With big-city amenities and the comfort of a small town, members of our community reap the best of both worlds. Where downtown seamlessly blends with the heart of campus, you’ll find hundreds of restaurants, BIG Ten athletics, and a dynamic art scene all within walking distance from the Boyd Law Building. And with annual festivals, block parties, and plenty of exciting events scheduled throughout the year, you’ll find it easy to balance the rigors of law school with fun and new experiences.</p>'
-/>
-
-
-<div class="v-dots-scroll-spacer">
-  <div class="v-dots-scroll-target" id="career"></div>
-</div>
-
-<grid-panel
-  link_url= 'https://law.uiowa.edu/careers'
-  image= 'images/viewbook/6.jpg'
-  headline= 'Career Advice that gets you hired'
-  button_text= 'Learn About Career Services'
-  button_link= 'https://law.uiowa.edu/careers'
-  grid_panel_type= 'grid-panel grid-panel--asymmetrical'
-  grid_panel_first_column= 'grid-panel__column-image-left'
-  grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
-  grid_content_position= 'second'
-  grid_panel_content= '<p>Beginning your first semester, Iowa Law will provide you with the resources and support you’ll
-need to succeed in the professional world. You’ll learn how to develop a résumé, emphasize your strengths, and identify possibilities that align with your career goals. Our dedicated career counselors will help you navigate your job search, explore your options, and arrange valuable opportunities to connect with prospective employers both on campus and around the world.</p>'
-/>
-
-<div class="v-dots-scroll-spacer">
-  <div class="v-dots-scroll-target" id="hawkeyes"></div>
-</div>
-
-<banner
-  image=""
-  banner_size="small"
-  banner_vertical_alignment="vertical-center"
-  banner_horizontal_alignment="horizontal-center"
-  banner_classes="bg--gold--pattern--brain brain banner--slim-title"
-  banner_type=""
-  banner_overlay= ""
-  banner_text=''
-  banner_title='See what students are saying about Iowa Law'
-  banner_title_classes='headline headline--uppercase'
-/>
-
-
-<div class="grid--threecol--33-34-33">
-  <div class="list-container">
-    <Card
-      image="images/viewbook/hayleigh-hansen.JPG"
-      title="Specialize in your interests<br /><b>Hayleigh Hansen-Boardman</b>"
-      author="Juris Doctor, '19"
-      content="
-        'I wanted to see health law from the client’s perspective. Getting to interact with patients and medical providers for a week was absolutely invaluable. I would honestly say that experience was the single-most practical learning experience I had throughout my legal education.'
-      "
-      class="card--stacked card--centered-left card--alignment-left card--padded"
-      media_class="card__media--large card__media card__media"
-      img_class=""
-      headline_class="h3 headline headline--uppercase"
-      headline_url_class="click-target"
-      link_url="https://law.uiowa.edu/news/2020/04/iowa-law-where-law-and-health-care-meet"
-      link_title="See full story"
-    />
-    <Card 
-      image="images/viewbook/kayla-boyd.jpg"
-      title="Turn passion into experience<br /><b>Kayla Boyd</b>"
-      author="Juris Doctor, '21"
-      content="
-        'My goal is to help the most vulnerable people in our criminal legal system, and the best way to do that is to provide an outstanding legal defense for those who have been wrongfully accused and treated unfairly, to stand up in court and tell their story.'
-      "
-      class="card--stacked card--centered-left card--alignment-left card--padded"
-      media_class="card__media--large card__media card__media"
-      img_class=""
-      headline_class="h3 headline headline--uppercase"
-      headline_url_class="click-target"
-      link_url="https://stories.uiowa.edu/spring-2021-graduates-kayla-boyd"
-      link_title="See full story"
-    />
-    <Card 
-      image="images/viewbook/emani-marshall.jpg"
-      title="Build a foundation for your career<br /><b>Emani Marsall-Loving</b>"
-      author="Juris Doctor, '21"
-      content="
-        'While writing my brief and preparing for oral arguments, I realized that Iowa Law had equipped me with the necessary skills to excel. Participating in the Appellate Advocacy program made me more confident, prepared, and equipped to take on the legal world and my legal career.'
-      "
-      class="card--stacked card--centered-left card--alignment-left card--padded"
-      media_class="card__media--large card__media card__media"
-      img_class=""
-      headline_class="h3 headline headline--uppercase"
-      headline_url_class="click-target"
-      link_url="https://law.uiowa.edu/news/2020/12/midwest-travels-take-marshall-loving-iowa-supreme-court"
-      link_title="See full story"
-    />
+  <div role="region" class="menu-group__wrapper">
+    <div class="menu-group__container">
+      <menuGroup
+        :items="menu_items"
+      />
+    </div>
   </div>
-</div>
 
-<div class="v-dots-scroll-spacer">
-  <div class="v-dots-scroll-target" id="anywhere"></div>
-</div>
+  <verticalDots
+    :sections="sections"
+  />
 
-<statWrapper
-  :stats="stats_2"
-  stat_classes="no--hover"
-/>
+  <!-- This is a great example of passing `props` in to a component inline. -->
+  <!-- Anything that will be used as a String in the component can be written without a colon before it. -->
+  <!-- Anything that does not (eg. Boolean, int, float) must have a colon in front of it. -->
+  <!-- This tells Vue that it should evaluate it like a javascript variable. -->
+  <!-- <stat
+    headline="34"
+    headline_prefix="#"
+    headline_suffix=""
+    stat_description="BEST PUBLIC UNIVERSITY BY U.S. NEWS & WORLD REPORT"
+    stat_content="Among the top 2% of universities worldwide."
+    :stat_vertical="true"
+  /> -->
 
-<banner
-  image="images/viewbook/7.jpg"
-  banner_size="large"
-  banner_vertical_alignment="vertical-center"
-  banner_horizontal_alignment="horizontal-center"
-  banner_classes=""
-  banner_type="image"
-  banner_overlay= "gradient-bottom"
-  banner_text='<p>Iowa Law is an ideal place to study law: small enough that your professors will know you well, yet large enough to be a launchpad for opportunity. With an Iowa Law degree, you’ll be prepared to practice law anywhere around the world. From private firms and Fortune 100 companies to global nonprofits and government agencies, you’ll find that Iowa alumni aren’t just in Iowa, they’re everywhere.</p>'
-  banner_title='First Iowa <span>then anywhere</span>'
-  banner_title_classes='headline headline--uppercase'
-/>
+  <!-- This is a great example of passing props from the `data() { return { PROPS }}` area further down in this file.-->
+  <!-- You can define props there to pass to any component. -->
+  <!-- However, you must prefix every component used this way with a colon. -->
+
+  <div class="v-dots-scroll-spacer">
+    <div class="v-dots-scroll-target" id="success"></div>
+  </div>
+  <statWrapper
+    :stats="stats_1"
+  />
+
+  <grid-panel
+    link_url= 'https://law.uiowa.edu/academics'
+    image= 'images/viewbook/2.jpg'
+    headline= 'Success by the numbers'
+    button_text= 'View our Curriculum'
+    button_link= 'https://law.uiowa.edu/academics'
+    grid_panel_type= 'grid-panel grid-panel--asymmetrical'
+    grid_panel_first_column= 'grid-panel__column-image-left'
+    grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
+    grid_content_position= 'second'
+    grid_panel_content= '<p>Iowa Law offers a unique opportunity to learn and interact in an intimate collegial setting. Our smaller class sizes allow students to work together and partner with experts across campus in fields such as engineering and health care to broaden their legal perspectives. Our faculty maintain an “open-door” policy where conversations extend beyond course material and into a student’s long-term goals. So when you ask for a letter of recommendation, you can be sure it will stand out—not only for its authenticity, but because it comes from someone who truly knows you.</p>'
+  />
+
+  <div class="v-dots-scroll-spacer">
+    <div class="v-dots-scroll-target" id="real"></div>
+  </div>
+
+  <grid-panel
+    link_url= 'https://law.uiowa.edu/experiential-learning'
+    image= 'images/viewbook/4.jpg'
+    headline= 'Take Real Action and make real change'
+    button_text= 'Explore Experiential Opportunities'
+    button_link= 'https://law.uiowa.edu/experiential-learning'
+    grid_panel_type= 'grid-panel grid-panel--asymmetrical'
+    grid_panel_first_column= 'grid-panel__column-content-left grid-panel__content'
+    grid_panel_second_column= 'grid-panel__column-image-right'
+    grid_content_position= 'first'
+    grid_panel_content= '<p>At Iowa law, you’ll connect theory and practice to gain the competence to succeed in any legal setting. Starting your first year, you’ll learn how to model your legal skills to meaningfully assist members of the community. By your second or third year, you’ll gain real-world experience in research, litigation, transactional work, and policy advocacy. Our unique approach to hands-on learning through pro bono projects, simulation activities, clinics, and field placement programs will prepare you for a dynamic legal career.</p>'
+  />
+
+  <div class="v-dots-scroll-spacer">
+    <div class="v-dots-scroll-target" id="learn"></div>
+  </div>
+
+  <grid-panel
+    link_url= 'https://law.uiowa.edu/faculty-and-scholarship'
+    image= 'images/viewbook/3.jpg'
+    headline= 'Learn from expert legal scholars'
+    button_text= 'Meet our Faculty'
+    button_link= 'https://law.uiowa.edu/faculty-and-scholarship'
+    grid_panel_type= 'grid-panel grid-panel--asymmetrical'
+    grid_panel_first_column= 'grid-panel__column-image-left'
+    grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
+    grid_content_position= 'second'
+    grid_panel_content= '<p>Iowa Law boasts an experienced, student-centered faculty dedicated to the development of practice-ready lawyers. They bring extensive practical experience to the classroom, having clerked for federal judges and practiced law in government, business, and at private firms. With an 8:1 student-to-faculty ratio and an “open-door” policy, our faculty foster a personalized approach to learning and a dynamic legal curriculum.</p>'
+  />
+
+  <div class="v-dots-scroll-spacer">
+    <div class="v-dots-scroll-target" id="writing"></div>
+  </div>
+
+  <grid-panel
+    link_url= 'https://law.uiowa.edu/experiential-learning/legal-writing'
+    image= 'images/viewbook/5.jpg'
+    headline= 'Unmatched writing resources to help you stand out'
+    button_text= 'Learn about Legal Writing'
+    button_link= 'https://law.uiowa.edu/experiential-learning/legal-writing'
+    grid_panel_type= 'grid-panel grid-panel--asymmetrical'
+    grid_panel_first_column= 'grid-panel__column-content-left grid-panel__content'
+    grid_panel_second_column= 'grid-panel__column-image-right'
+    grid_content_position= 'first'
+    grid_panel_content= '<p>Iowa Law has long been at the forefront of a legal writing education. We invest in full-time writing faculty—and we are one of the few top-tier law schools to do so. During your first year, you’ll engage in small-section writing courses and receive one-on-one instruction from your professors. Throughout your second and third years, you’ll have countless opportunities to gain valuable writing experience, refine your skills, and build the confidence you need to stand out in a competitive workforce.</p>'
+  />
+
+  <div class="v-dots-scroll-spacer">
+    <div class="v-dots-scroll-target" id="best"></div>
+  </div>
+
+  <grid-panel
+    link_url= 'https://law.uiowa.edu/student-experience/student-life/iowa-city'
+    image= 'images/viewbook/5.jpg'
+    headline= 'The Best College Town'
+    button_text= 'Discover Iowa City'
+    button_link= 'https://law.uiowa.edu/student-experience/student-life/iowa-city'
+    grid_panel_type= 'grid-panel grid-panel--asymmetrical'
+    grid_panel_first_column= 'grid-panel__column-image-left'
+    grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
+    grid_content_position= 'second'
+    grid_panel_content= '<p>Considered one of the best places to live in the country, Iowa City offers big-city amenities alongside the comfort and affordability of a small town. Where downtown seamlessly blends with the heart of campus, you’ll find more than 100 restaurants, BIG Ten athletics, and a dynamic art scene all within walking distance from the Boyd Law Building. And with annual festivals, block parties, and plenty of exciting events scheduled throughout the year, you’ll find it easy to balance the rigors of law school with fun and new experiences.</p>'
+  />
+
+  <div class="v-dots-scroll-spacer">
+    <div class="v-dots-scroll-target" id="career"></div>
+  </div>
+
+  <grid-panel
+    link_url= 'https://law.uiowa.edu/careers'
+    image= 'images/viewbook/6.jpg'
+    headline= 'Career Advice that gets you hired'
+    button_text= 'View Career Services'
+    button_link= 'https://law.uiowa.edu/careers'
+    grid_panel_type= 'grid-panel grid-panel--asymmetrical'
+    grid_panel_first_column= 'grid-panel__column-content-left grid-panel__content'
+    grid_panel_second_column= 'grid-panel__column-image-right'
+    grid_content_position= 'first'
+    grid_panel_content= '<p>Beginning your first semester, Iowa Law will provide you with valuable resources and personalized assistance to help you prepare for a successful career. From on-campus interviews to guidance with résumés and cover letters, you’ll have the support you need to practice law in any field, anywhere. You’ll also be welcomed into a network of 10,700+ Iowa Law alumni—many of whom recruit current Iowa Law students or will connect you to prospective employers.</p>'
+  />
+
+  <div class="v-dots-scroll-spacer">
+    <div class="v-dots-scroll-target" id="hawkeyes"></div>
+  </div>
+
+  <banner
+    image=""
+    banner_size="small"
+    banner_vertical_alignment="vertical-center"
+    banner_horizontal_alignment="horizontal-center"
+    banner_classes="bg--gold--pattern--brain brain banner--slim-title"
+    banner_type=""
+    banner_overlay= ""
+    banner_text=''
+    banner_title='See what students are saying about Iowa Law'
+    banner_title_classes='headline headline--uppercase'
+  />
+
+
+  <div class="grid--fourcol--25">
+    <div class="list-container">
+      <Card
+        image="images/viewbook/hayleigh-hansen.JPG"
+        title="Connect theory to practice<br /><b>Barbi Rodriguez</b>"
+        author="Class of 2022"
+        content="<b>Most Rewarding Law School Experience:</b> 'The experiential learning opportunities at Iowa Law broadened my sense of what my career could comprise while letting me experience varied approaches to lawyering, advocacy, service, and mentorship. I entered law school with an interest in practicing public interest immigration law, but I had not internalized the many forms this could take. The semesters I spent with the Community Empowerment Law Project and the Immigration Advocacy Clinic were especially impactful in helping me clarify the kind of lawyer I want to be. It meant a lot to serve the needs of individuals and families who were evacuated from Afghanistan and are resettling in eastern Iowa.'<br>
+        <b>What’s Ahead:</b> Clerking for the United States District Court of the Eastern District of New York, then returning to Iowa to clerk for the United States Court of Appeals for the Eighth Circuit."
+        class="card--stacked card--centered-left card--alignment-left card--padded"
+        media_class="card__media--large card__media card__media"
+        img_class=""
+        headline_class="h3 headline headline--uppercase"
+        headline_url_class="click-target"
+      />
+      <Card
+        image="images/viewbook/kayla-boyd.jpg"
+        title="Learn in an intimate collegial setting<br /><b>Marcus Weymiller</b>"
+        author="Class of 2022"
+        content="<b>Most Rewarding Law School Experience:</b> 'I really enjoyed learning from all the smart, driven, and gracious faculty at Iowa Law, especially Professor Muller. Not only did I learn a lot about the law, but I learned what it means to invest in your legal career and the people around you. Professor Muller gives his all to every project he is a part of and treats everyone with such dignity and respect. He has been very instrumental in my professional development, and I’m grateful to have him as a mentor.<br>
+        <b>What’s Ahead:</b> Clerking for Justice G. Barry Anderson at the Minnesota Supreme Court.'"
+        class="card--stacked card--centered-left card--alignment-left card--padded"
+        media_class="card__media--large card__media card__media"
+        img_class=""
+        headline_class="h3 headline headline--uppercase"
+        headline_url_class="click-target"
+      />
+      <Card
+        image="images/viewbook/emani-marshall.jpg"
+        title="Communicate with confidence<br /><b>Lauren Knudson</b>"
+        author="Class of 2022"
+        content="<b>Most Rewarding Law School Experience:</b> 'During my time as editor-in-chief of the Iowa Law Review, I gained a ton of valuable writing experience that helped me prepare for my future career, especially in the editing and publication process. The position not only sharpened my leadership skills, but also gave me the confidence to publish a piece of my own. I can honestly say I would not have the clerkship or the job I have lined up in Washington, D.C., without the writing opportunities at Iowa Law.<br>
+        <b>What’s Ahead:</b> Joining Mayer Brown’s litigation team in Washington, D.C., with a focus on antitrust.'"
+        class="card--stacked card--centered-left card--alignment-left card--padded"
+        media_class="card__media--large card__media card__media"
+        img_class=""
+        headline_class="h3 headline headline--uppercase"
+        headline_url_class="click-target"
+      />
+      <Card
+        image="images/viewbook/emani-marshall.jpg"
+        title="Align practical skills and career goals<br /><b>Seung Woo Ban</b>"
+        author="Class of 2024"
+        content="<b>Most Rewarding Law School Experience:</b> 'As a nontraditional law student with over a decade of work experience, it’s important for me to clearly understand what I want to do with my JD degree upon graduation. Iowa Law’s career advisors were really helpful in finding my summer internship in L.A. They’ve also been helping me navigate through various career possibilities in the U.S. and around the world. I also regularly attended events hosted by the Career Services Office, which has allowed me to get a solid understanding of specific legal practice areas.<br>
+        <b>What’s Ahead:</b> Working as a summer associate to experience a different firm culture and/or practice area than his previous associate position at Ford Harrison LLP in Los Angeles.'"
+        class="card--stacked card--centered-left card--alignment-left card--padded"
+        media_class="card__media--large card__media card__media"
+        img_class=""
+        headline_class="h3 headline headline--uppercase"
+        headline_url_class="click-target"
+      />
+    </div>
+  </div>
+
+  <div class="v-dots-scroll-spacer">
+    <div class="v-dots-scroll-target" id="anywhere"></div>
+  </div>
+
+  <statWrapper
+    :stats="stats_2"
+    stat_classes="no--hover"
+  />
+
+  <banner
+    image="images/viewbook/7.jpg"
+    banner_size="large"
+    banner_vertical_alignment="vertical-center"
+    banner_horizontal_alignment="horizontal-center"
+    banner_classes=""
+    banner_type="image"
+    banner_overlay= "gradient-bottom"
+    banner_text='<p>Iowa Law is an ideal place to study law: small enough that your professors will know you well, yet large enough to be nationally renowned and a launchpad for opportunity. With an Iowa Law degree, you’ll be prepared to practice law anywhere around the world. From private firms and Fortune 100 companies to global nonprofits and government agencies, you’ll find that Iowa alumni aren’t just in Iowa, they’re everywhere.</p>'
+    banner_title='First Iowa <span>then anywhere</span>'
+    banner_title_classes='headline headline--uppercase'
+  />
 
 
 
 
-<footerSection
-  site_name="College of Law"
-  site_name_link="https://law.uiowa.edu/"
-  :contact_info="contact_info"
-  :social_media_links="social_media_links"
-/>
+  <footerSection
+    site_name="College of Law"
+    site_name_link="https://law.uiowa.edu/"
+    :contact_info="contact_info"
+    :social_media_links="social_media_links"
+  />
 
 </template>
 
@@ -304,44 +318,44 @@ export default {
           stat_content: 'Among 193 nationally ranked law schools.',
         },
         {
-          headline: '100',
+          headline: '99',
           headline_prefix: '',
           headline_suffix: '%',
           stat_description: 'JOB PLACEMENT RATE WITHIN 10 MONTHS OF GRADUATION',
-          stat_content: '10% higher than the national average.',
+          stat_content: '16% higher than the national average.',
         },
         {
           headline: 'Best',
           headline_prefix: '',
           headline_suffix: '',
-          stat_description: 'VALUE LAW SCHOOL FOR 7 CONSECUTIVE YEARS BY THE <i>NATIONAL JURIST</i>',
+          stat_description: 'VALUE LAW SCHOOL FOR 8 CONSECUTIVE YEARS BY THE <i>NATIONAL JURIST</i>',
           stat_content: 'Based on tuition costs, bar passage rates, and employment success.',
         },
         {
-          headline: '94',
+          headline: '84',
           headline_prefix: '',
           headline_suffix: '%',
           stat_description: 'BAR PASSAGE RATE AMONG FIRST-TIME TAKERS',
-          stat_content: '13% higher than the national average.',
+          stat_content: 'Nearly 5% higher than the national average.',
         }
       ],
       stats_2: [
         {
-          headline: '10,500',
+          headline: '10,700',
           headline_prefix: '',
           headline_suffix: '+',
           stat_description: 'ALUMNI IN ALL 50 STATES and 43 countries',
           stat_content: '',
         },
         {
-          headline: '9',
+          headline: '25',
           headline_prefix: '',
-          headline_suffix: 'th',
-          stat_description: 'HIGHEST EMPLOYMENT RATE for full-time jobs by law.com',
+          headline_suffix: '%',
+          stat_description: 'of the class of 2021 earned state or federal clerkships across the country',
           stat_content: '',
         },
         {
-          headline: '100',
+          headline: '190',
           headline_prefix: '',
           headline_suffix: '+',
           stat_description: 'EMPLOYERS COME TO CAMPUS each year for on campus interviews',
@@ -377,22 +391,22 @@ export default {
         },
         {
           section_title: 'SUCCESS BY THE NUMBERS',
-          section_id: 'stats'
+          section_id: 'success'
         },
         {
-          section_title: 'STAND OUT FROM THE CROWD',
-          section_id: 'stand'
+          section_title: 'TAKE REAL ACTION AND MAKE REAL CHANGE',
+          section_id: 'real'
         },
         {
           section_title: 'LEARN FROM EXPERT LEGAL SCHOLARS',
           section_id: 'learn'
         },
         {
-          section_title: 'TAKE REAL ACTION AND MAKE REAL CHANGE',
-          section_id: 'take'
+          section_title: 'UNMATCHED WRITING RESOURCES TO HELP YOU STAND OUT',
+          section_id: 'writing'
         },
         {
-          section_title: 'THE BEST PLACE TO LIVE',
+          section_title: 'THE BEST COLLEGE TOWN',
           section_id: 'best'
         },
         {
@@ -582,5 +596,18 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
     flex-basis: 0%;
   }
 }
+  .grid--fourcol--25 {
+    .list-container {
+      display: grid;
+      grid-template-rows: auto;
+      gap: 3rem;
+      grid-template-columns: 1fr;
+      @include breakpoint(md) {
+        gap: $desktop-width-gutter;
+        grid-template-columns: repeat(auto-fill, minmax(21%, 1fr));
+      }
+    }
+  }
+
 
 </style>

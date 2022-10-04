@@ -1,6 +1,7 @@
 {
   "name": "admissions-viewbook",
   "version": "0.0.0",
+  "license": "yarn",
   "scripts": {
     "dev": "vite --assetsDir=assets --minify=esbuild",
     "build": "vite build --assetsDir=assets --minify=esbuild"
