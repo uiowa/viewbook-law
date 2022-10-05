@@ -499,7 +499,7 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
 
 @media (max-width: 110.688em) and (min-width: 93.75em) {
   .grid-panel__content .headline--uppercase {
-    font-size: calc(3em + .9vw) !important;
+    font-size: calc(2.5em + .9vw) !important;
   }
 }
 
@@ -596,20 +596,20 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
     flex-basis: 0%;
   }
 }
-  .grid--fourcol--25 {
-    .list-container {
-      display: grid;
-      grid-template-rows: auto;
-      grid-template-columns: 1fr;
-      @include breakpoint(md) {
-        gap: $desktop-width-gutter;
-        grid-template-columns: repeat(auto-fill, minmax(21%, 1fr));
-      }
-      @media (min-width: 992px) {
-        gap: 0px;
-      }
+
+.grid--fourcol--25 {
+  .list-container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    gap: 0;
+    @include breakpoint(sm) {
+      grid-template-columns: repeat(auto-fill, minmax(46.7%, 1fr));
+    }
+    @include breakpoint(container) {
+      grid-template-columns: repeat(auto-fill, minmax(21%, 1fr));
     }
   }
-
+}
 
 </style>
