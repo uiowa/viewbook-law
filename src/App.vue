@@ -133,7 +133,7 @@
 
   <grid-panel
     link_url= 'https://law.uiowa.edu/student-experience/student-life/iowa-city'
-    image= 'images/viewbook/5.jpg'
+    image= 'images/viewbook/6.jpg'
     headline= 'The Best College Town'
     button_text= 'Discover Iowa City'
     button_link= 'https://law.uiowa.edu/student-experience/student-life/iowa-city'
@@ -150,7 +150,7 @@
 
   <grid-panel
     link_url= 'https://law.uiowa.edu/careers'
-    image= 'images/viewbook/6.jpg'
+    image= 'images/viewbook/7.jpg'
     headline= 'Career Advice that gets you hired'
     button_text= 'View Career Services'
     button_link= 'https://law.uiowa.edu/careers'
@@ -600,11 +600,13 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
     .list-container {
       display: grid;
       grid-template-rows: auto;
-      gap: 3rem;
       grid-template-columns: 1fr;
       @include breakpoint(md) {
         gap: $desktop-width-gutter;
         grid-template-columns: repeat(auto-fill, minmax(21%, 1fr));
+      }
+      @media (min-width: 992px) {
+        gap: 0px;
       }
     }
   }
