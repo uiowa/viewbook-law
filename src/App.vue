@@ -182,11 +182,11 @@
   <div class="grid--fourcol--25">
     <div class="list-container">
       <Card
-        image="images/viewbook/hayleigh-hansen.JPG"
+        image="images/viewbook/barbi-rodriguez.JPG"
         title="Connect theory to practice<br /><b>Barbi Rodriguez</b>"
         author="Class of 2022"
         content="<b>Most Rewarding Law School Experience:</b> 'The experiential learning opportunities at Iowa Law broadened my sense of what my career could comprise while letting me experience varied approaches to lawyering, advocacy, service, and mentorship. I entered law school with an interest in practicing public interest immigration law, but I had not internalized the many forms this could take. The semesters I spent with the Community Empowerment Law Project and the Immigration Advocacy Clinic were especially impactful in helping me clarify the kind of lawyer I want to be. It meant a lot to serve the needs of individuals and families who were evacuated from Afghanistan and are resettling in eastern Iowa.'<br>
-        <b>What’s Ahead:</b> Clerking for the United States District Court of the Eastern District of New York, then returning to Iowa to clerk for the United States Court of Appeals for the Eighth Circuit."
+        <b>What’s Ahead:</b> 'Clerking for the United States District Court of the Eastern District of New York, then returning to Iowa to clerk for the United States Court of Appeals for the Eighth Circuit.'"
         class="card--stacked card--centered-left card--alignment-left card--padded"
         media_class="card__media--large card__media card__media"
         img_class=""
@@ -194,11 +194,11 @@
         headline_url_class="click-target"
       />
       <Card
-        image="images/viewbook/kayla-boyd.jpg"
+        image="images/viewbook/marcus-weymiller.jpg"
         title="Learn in an intimate collegial setting<br /><b>Marcus Weymiller</b>"
         author="Class of 2022"
-        content="<b>Most Rewarding Law School Experience:</b> 'I really enjoyed learning from all the smart, driven, and gracious faculty at Iowa Law, especially Professor Muller. Not only did I learn a lot about the law, but I learned what it means to invest in your legal career and the people around you. Professor Muller gives his all to every project he is a part of and treats everyone with such dignity and respect. He has been very instrumental in my professional development, and I’m grateful to have him as a mentor.<br>
-        <b>What’s Ahead:</b> Clerking for Justice G. Barry Anderson at the Minnesota Supreme Court.'"
+        content="<b>Most Rewarding Law School Experience:</b> 'I really enjoyed learning from all the smart, driven, and gracious faculty at Iowa Law, especially Professor Muller. Not only did I learn a lot about the law, but I learned what it means to invest in your legal career and the people around you. Professor Muller gives his all to every project he is a part of and treats everyone with such dignity and respect. He has been very instrumental in my professional development, and I’m grateful to have him as a mentor.'<br>
+        <b>What’s Ahead:</b> 'Clerking for Justice G. Barry Anderson at the Minnesota Supreme Court.'"
         class="card--stacked card--centered-left card--alignment-left card--padded"
         media_class="card__media--large card__media card__media"
         img_class=""
@@ -206,11 +206,11 @@
         headline_url_class="click-target"
       />
       <Card
-        image="images/viewbook/emani-marshall.jpg"
+        image="images/viewbook/lauren-knudson.jpg"
         title="Communicate with confidence<br /><b>Lauren Knudson</b>"
         author="Class of 2022"
-        content="<b>Most Rewarding Law School Experience:</b> 'During my time as editor-in-chief of the Iowa Law Review, I gained a ton of valuable writing experience that helped me prepare for my future career, especially in the editing and publication process. The position not only sharpened my leadership skills, but also gave me the confidence to publish a piece of my own. I can honestly say I would not have the clerkship or the job I have lined up in Washington, D.C., without the writing opportunities at Iowa Law.<br>
-        <b>What’s Ahead:</b> Joining Mayer Brown’s litigation team in Washington, D.C., with a focus on antitrust.'"
+        content="<b>Most Rewarding Law School Experience:</b> 'During my time as editor-in-chief of the Iowa Law Review, I gained a ton of valuable writing experience that helped me prepare for my future career, especially in the editing and publication process. The position not only sharpened my leadership skills, but also gave me the confidence to publish a piece of my own. I can honestly say I would not have the clerkship or the job I have lined up in Washington, D.C., without the writing opportunities at Iowa Law.'<br>
+        <b>What’s Ahead:</b> 'Joining Mayer Brown’s litigation team in Washington, D.C., with a focus on antitrust.'"
         class="card--stacked card--centered-left card--alignment-left card--padded"
         media_class="card__media--large card__media card__media"
         img_class=""
@@ -218,11 +218,11 @@
         headline_url_class="click-target"
       />
       <Card
-        image="images/viewbook/emani-marshall.jpg"
+        image="images/viewbook/seung-woo-ban.jpg"
         title="Align practical skills and career goals<br /><b>Seung Woo Ban</b>"
         author="Class of 2024"
-        content="<b>Most Rewarding Law School Experience:</b> 'As a nontraditional law student with over a decade of work experience, it’s important for me to clearly understand what I want to do with my JD degree upon graduation. Iowa Law’s career advisors were really helpful in finding my summer internship in L.A. They’ve also been helping me navigate through various career possibilities in the U.S. and around the world. I also regularly attended events hosted by the Career Services Office, which has allowed me to get a solid understanding of specific legal practice areas.<br>
-        <b>What’s Ahead:</b> Working as a summer associate to experience a different firm culture and/or practice area than his previous associate position at Ford Harrison LLP in Los Angeles.'"
+        content="<b>Most Rewarding Law School Experience:</b> 'As a nontraditional law student with over a decade of work experience, it’s important for me to clearly understand what I want to do with my JD degree upon graduation. Iowa Law’s career advisors were really helpful in finding my summer internship in L.A. They’ve also been helping me navigate through various career possibilities in the U.S. and around the world. I also regularly attended events hosted by the Career Services Office, which has allowed me to get a solid understanding of specific legal practice areas.'<br>
+        <b>What’s Ahead:</b> 'Working as a summer associate to experience a different firm culture and/or practice area than his previous associate position at Ford Harrison LLP in Los Angeles.'"
         class="card--stacked card--centered-left card--alignment-left card--padded"
         media_class="card__media--large card__media card__media"
         img_class=""
@@ -242,7 +242,7 @@
   />
 
   <banner
-    image="images/viewbook/7.jpg"
+    image="images/viewbook/8.jpg"
     banner_size="large"
     banner_vertical_alignment="vertical-center"
     banner_horizontal_alignment="horizontal-center"
@@ -499,7 +499,13 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
 
 @media (max-width: 110.688em) and (min-width: 93.75em) {
   .grid-panel__content .headline--uppercase {
-    font-size: calc(2.5em + .9vw) !important;
+    font-size: calc(3em + .9vw) !important;
+  }
+}
+
+@media (max-width: 93.75em) and (min-width: 84.375em) {
+  .grid-panel--asymmetrical p {
+    font-size: 1em;
   }
 }
 
