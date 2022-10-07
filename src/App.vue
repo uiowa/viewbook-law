@@ -524,8 +524,10 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
   margin-left: 1.875rem;
 }
 
-.banner__image img {
-  filter: brightness(150%) saturate(150%);
+.banner p {
+  @include breakpoint(sm) {
+    font-size: 1.4rem;
+  }
 }
 
 .banner::after {
