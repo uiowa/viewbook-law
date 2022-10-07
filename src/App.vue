@@ -182,7 +182,7 @@
   <div class="grid--fourcol--25">
     <div class="list-container">
       <Card
-        image="images/viewbook/barbi-rodriguez.JPG"
+        image="images/viewbook/barbi-rodriguez.jpg"
         title="Connect theory to practice<br /><b>Barbi Rodriguez</b>"
         author="Class of 2022"
         content='<b>Most Rewarding Law School Experience:</b> "The experiential learning opportunities at Iowa Law broadened my sense of what my career could comprise while letting me experience varied approaches to lawyering, advocacy, service, and mentorship. I entered law school with an interest in practicing public interest immigration law, but I had not internalized the many forms this could take. The semesters I spent with the Community Empowerment Law Project and the Immigration Advocacy Clinic were especially impactful in helping me clarify the kind of lawyer I want to be. It meant a lot to serve the needs of individuals and families who were evacuated from Afghanistan and are resettling in eastern Iowa."<br>
