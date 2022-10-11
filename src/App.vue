@@ -57,23 +57,10 @@
   <!-- However, you must prefix every component used this way with a colon. -->
 
   <div class="v-dots-scroll-spacer">
-    <div class="v-dots-scroll-target" id="success"></div>
+    <div class="v-dots-scroll-target" id="stats"></div>
   </div>
   <statWrapper
     :stats="stats_1"
-  />
-
-  <grid-panel
-    link_url= 'https://law.uiowa.edu/academics'
-    image= 'images/viewbook/2.jpg'
-    headline= 'Success by the numbers'
-    button_text= 'View our Curriculum'
-    button_link= 'https://law.uiowa.edu/academics'
-    grid_panel_type= 'grid-panel grid-panel--asymmetrical'
-    grid_panel_first_column= 'grid-panel__column-image-left'
-    grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
-    grid_content_position= 'second'
-    grid_panel_content= '<p>Iowa Law offers a unique opportunity to learn and interact in an intimate collegial setting. Our smaller class sizes allow students to work together and partner with experts across campus in fields such as engineering and health care to broaden their legal perspectives. Our faculty maintain an “open-door” policy where conversations extend beyond course material and into a student’s long-term goals. So when you ask for a letter of recommendation, you can be sure it will stand out—not only for its authenticity, but because it comes from someone who truly knows you.</p>'
   />
 
   <div class="v-dots-scroll-spacer">
@@ -151,7 +138,7 @@
   <grid-panel
     link_url= 'https://law.uiowa.edu/careers'
     image= 'images/viewbook/7.jpg'
-    headline= 'Career Advice that gets you hired'
+    headline= 'Career Advice that helps get you hired'
     button_text= 'View Career Services'
     button_link= 'https://law.uiowa.edu/careers'
     grid_panel_type= 'grid-panel grid-panel--asymmetrical'
@@ -209,7 +196,7 @@
         image="images/viewbook/lauren-knudson.jpg"
         title="Communicate with confidence<br /><b>Lauren Knudson</b>"
         author="Class of 2022"
-        content='<b>Most Rewarding Law School Experience:</b> "During my time as editor-in-chief of the Iowa Law Review, I gained a ton of valuable writing experience that helped me prepare for my future career, especially in the editing and publication process. The position not only sharpened my leadership skills, but also gave me the confidence to publish a piece of my own. I can honestly say I would not have the clerkship or the job I have lined up in Washington, D.C., without the writing opportunities at Iowa Law."<br>
+        content='<b>Most Rewarding Law School Experience:</b> "During my time as editor-in-chief of the <i>Iowa Law Review</i>, I gained a ton of valuable writing experience that helped me prepare for my future career, especially in the editing and publication process. The position not only sharpened my leadership skills, but also gave me the confidence to publish a piece of my own. I can honestly say I would not have the clerkship or the job I have lined up in Washington, D.C., without the writing opportunities at Iowa Law."<br>
         <b>What’s Ahead:</b> Joining Mayer Brown’s litigation team in Washington, D.C., with a focus on antitrust.'
         class="card--stacked card--centered-left card--alignment-left card--padded"
         media_class="card__media--large card__media card__media"
@@ -311,7 +298,7 @@ export default {
     return {
       stats_1: [
         {
-          headline: '29',
+          headline: '28',
           headline_prefix: '#',
           headline_suffix: '',
           stat_description: 'BEST LAW SCHOOL BY <i style="display: block">U.S. NEWS & WORLD REPORT</i>',
@@ -335,7 +322,7 @@ export default {
           headline: '84',
           headline_prefix: '',
           headline_suffix: '%',
-          stat_description: 'BAR PASSAGE RATE AMONG FIRST-TIME TAKERS',
+          stat_description: 'BAR PASSAGE RATE AMONG FIRST-TIME TEST TAKERS',
           stat_content: 'Nearly 5% higher than the national average.',
         }
       ],
@@ -391,7 +378,7 @@ export default {
         },
         {
           section_title: 'SUCCESS BY THE NUMBERS',
-          section_id: 'success'
+          section_id: 'stats'
         },
         {
           section_title: 'TAKE REAL ACTION AND MAKE REAL CHANGE',
@@ -410,7 +397,7 @@ export default {
           section_id: 'best'
         },
         {
-          section_title: 'CAREER ADVICE THAT GETS YOU HIRED',
+          section_title: 'CAREER ADVICE THAT HELPS GET YOU HIRED',
           section_id: 'career'
         },
         {
@@ -493,6 +480,14 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
 
 .grid-panel__content .headline--uppercase {
   font-size: calc(2.5em + .9vw) !important;
+}
+
+.grid-panel .grid-panel__img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 @media (max-width: 93.75em) and (min-width: 84.375em) {
