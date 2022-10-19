@@ -172,7 +172,7 @@
         image="images/viewbook/barbi-rodriguez.jpg"
         title="Connect theory to practice<br /><b>Barbi Rodriguez</b>"
         author="Class of 2022"
-        content='<b>Most Rewarding Law School Experience:</b> "The experiential learning opportunities at Iowa Law broadened my sense of what my career could comprise while letting me experience varied approaches to lawyering, advocacy, service, and mentorship. I entered law school with an interest in practicing public interest immigration law, but I had not internalized the many forms this could take. The semesters I spent with the Community Empowerment Law Project and the Immigration Advocacy Clinic were especially impactful in helping me clarify the kind of lawyer I want to be. It meant a lot to serve the needs of individuals and families who were evacuated from Afghanistan and are resettling in eastern Iowa."<br>
+        content='<b>Most Rewarding Law School Experience:</b> "The experiential learning opportunities at Iowa Law broadened my sense of what my career could comprise. I entered law school with an interest in public interest immigration law, but I had not internalized the many forms this could take. The semesters I spent with the Community Empowerment Law Project and the Immigration Advocacy Clinic were especially impactful in helping me clarify the kind of lawyer I want to be."<br>
         <b>What’s Ahead:</b> Clerking for the United States District Court of the Eastern District of New York, then returning to Iowa to clerk for the United States Court of Appeals for the Eighth Circuit.'
         class="card--stacked card--centered-left card--alignment-left card--padded"
         media_class="card__media--large card__media card__media"
@@ -208,8 +208,8 @@
         image="images/viewbook/seung-woo-ban.jpg"
         title="Align practical skills and career goals<br /><b>Seung Woo Ban</b>"
         author="Class of 2024"
-        content='<b>Most Rewarding Law School Experience:</b> "As a nontraditional law student with over a decade of work experience, it’s important for me to clearly understand what I want to do with my JD degree upon graduation. Iowa Law’s career advisors were really helpful in finding my summer internship in L.A. They’ve also been helping me navigate through various career possibilities in the U.S. and around the world. I also regularly attended events hosted by the Career Services Office, which has allowed me to get a solid understanding of specific legal practice areas."<br>
-        <b>What’s Ahead:</b> Working as a summer associate to experience a different firm culture and/or practice area than his previous associate position at Ford Harrison LLP in Los Angeles.'
+        content='<b>Most Rewarding Law School Experience:</b> "As a nontraditional law student with over a decade of work experience, it’s important for me to understand what I want to do with my JD degree upon graduation. Iowa Law’s career advisors were helpful in finding my summer internship in L.A. and in navigating through various career opportunities. I also regularly attend events hosted by the Career Services Office, which has allowed me to gain a solid understanding of specific practice areas."<br>
+        <b>What’s Ahead:</b> Working as a summer associate to experience a different legal practice area than his previous associate position at Ford Harrison LLP in Los Angeles.'
         class="card--stacked card--centered-left card--alignment-left card--padded"
         media_class="card__media--large card__media card__media"
         img_class=""
