@@ -298,20 +298,6 @@ export default {
     return {
       stats_1: [
         {
-          headline: '28',
-          headline_prefix: '#',
-          headline_suffix: '',
-          stat_description: 'BEST LAW SCHOOL BY <i style="display: block">U.S. NEWS & WORLD REPORT</i>',
-          stat_content: 'Among 193 nationally ranked law schools.',
-        },
-        {
-          headline: '99',
-          headline_prefix: '',
-          headline_suffix: '%',
-          stat_description: 'JOB PLACEMENT RATE WITHIN 10 MONTHS OF GRADUATION',
-          stat_content: '16% higher than the national average.',
-        },
-        {
           headline: 'Best',
           headline_prefix: '',
           headline_suffix: '',
@@ -319,11 +305,25 @@ export default {
           stat_content: 'Based on tuition costs, bar passage rates, and employment success.',
         },
         {
+          headline: '98',
+          headline_prefix: '',
+          headline_suffix: '%',
+          stat_description: 'JOB PLACEMENT RATE WITHIN 10 MONTHS OF GRADUATION',
+          stat_content: 'As reported to the ABA for the Class of 2022.',
+        },
+        {
           headline: '84',
           headline_prefix: '',
           headline_suffix: '%',
           stat_description: 'BAR PASSAGE RATE AMONG FIRST-TIME TEST TAKERS',
           stat_content: 'Nearly 5% higher than the national average.',
+        },
+        {
+          headline: '50',
+          headline_prefix: 'Top',
+          headline_suffix: '',
+          stat_description: 'Go To Law School, named by <i>Law.com</i>',
+          stat_content: 'Go to Law Schools ranks the top feeder schools for jobs in Big Law.',
         }
       ],
       stats_2: [
@@ -335,10 +335,10 @@ export default {
           stat_content: '',
         },
         {
-          headline: '25',
+          headline: '20',
           headline_prefix: '',
           headline_suffix: '%',
-          stat_description: 'of the class of 2021 earned state or federal clerkships across the country',
+          stat_description: 'of the class of 2022 earned state or federal clerkships across the country',
           stat_content: '',
         },
         {
@@ -605,6 +605,13 @@ $imgpath: '../node_modules/@uiowa/uids/src/assets/images';
       grid-template-columns: repeat(auto-fill, minmax(21%, 1fr));
     }
   }
+}
+
+.stat--horizontal:not(.element--flex-center) .headline__prefix {
+  margin-right: 0px;
+}
+.stat--horizontal:not(.element--flex-center) .headline__suffix {
+  margin-left: -5px;
 }
 
 </style>
