@@ -312,13 +312,6 @@ export default {
           stat_content: 'As reported to the ABA for the Class of 2022.',
         },
         {
-          headline: '84',
-          headline_prefix: '',
-          headline_suffix: '%',
-          stat_description: 'BAR PASSAGE RATE AMONG FIRST-TIME TEST TAKERS',
-          stat_content: 'Nearly 5% higher than the national average.',
-        },
-        {
           headline: '50',
           headline_prefix: 'Top',
           headline_suffix: '',
