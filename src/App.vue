@@ -22,7 +22,7 @@
     banner_classes="lighter-gradient"
     banner_type="image"
     banner_overlay= "gradient-bottom"
-    banner_text='<p>Explore the breadth of the profession, excel in a legal landscape that fits your goals, and contribute to real change in society. With an Iowa Law degree, you can succeed anywhere.</p>'
+    banner_text='<p>At Iowa Law, we treat service, writing, and on-the-job experience as integral components of a legal education—giving you the flexibility to explore the breadth of the profession and contribute to real change in society.</p>'
     banner_title='Welcome to <span>Iowa Law</span>'
     banner_title_classes='headline headline--uppercase'
   />
@@ -70,7 +70,7 @@
   <grid-panel
     link_url= 'https://law.uiowa.edu/experiential-learning'
     image= '/images/viewbook/WEB-2022-09-29-Law-Supreme-Court-Day-Practice-jatorner-0154.jpg'
-    headline= 'Take Real Action and make real change'
+    headline= 'Take Real Action, make real change'
     button_text= 'Explore Experiential Opportunities'
     button_link= 'https://law.uiowa.edu/experiential-learning'
     grid_panel_type= 'grid-panel grid-panel--asymmetrical'
@@ -111,7 +111,7 @@
     grid_panel_first_column= 'grid-panel__column-content-left grid-panel__content'
     grid_panel_second_column= 'grid-panel__column-image-right'
     grid_content_position= 'first'
-    grid_panel_content= '<p>owa Law has long been at the forefront of legal writing education. We invest in full-time writing faculty boasting over 120 years of combined legal writing experience. Your first year will include small-section writing courses with personalized instruction, allowing you to refine your legal writing skills. In your second and third years, you’ll have countless opportunities to gain real-world writing experience to help you develop the confidence and skill set necessary to stand out in a competitive workforce.</p>'
+    grid_panel_content= '<p>Iowa Law has long been at the forefront of legal writing education. We invest in full-time writing faculty with over 120 years of combined legal writing experience. Your first year will include small-section writing courses with personalized instruction, allowing you to refine your legal writing skills. In your second and third years, you’ll have countless opportunities to gain real-world writing experience to help you develop the confidence and skill set necessary to stand out in a competitive workforce.</p>'
   />
 
   <div class="v-dots-scroll-spacer">
@@ -182,7 +182,7 @@
       />
       <Card
         image="/images/viewbook/WEB-Head-100x667-Eyasu.jpg"
-        title="Communicate with confidence<br /><b>Eyasu Yirdaw</b>"
+        title="BUILD VALUABLE CONNECTIONS<br /><b>Eyasu Yirdaw</b>"
         author="Class of 2024"
         content='<b>Most Rewarding Law School Experience:</b> "Though law school can be a challenge, the relationships I’ve built at Iowa Law have made it extremely rewarding. That’s because the faculty are not just renowned academics—they’re friends, mentors, and so much more. They’re willing to go out of their way to help students succeed and engage in meaningful conversations beyond office hours. I feel fortunate to receive one-on-one paper feedback from Labor Law Professor César Rosado Marzán, talk about judicial clerkships with LAWR Professor Mary Ksobiech, and discuss future life goals with International Environmental Law Professor Jonathan Carlson."<br>
         <b>What’s Ahead:</b> Working as a summer associate at Polsinelli Law Firm in Kansas City, Missouri.'
@@ -194,9 +194,9 @@
       />
       <Card
         image="/images/viewbook/WEB-Head-100x667-Smith.jpg"
-        title="Align practical skills and career goals<br /><b>Tia Smith</b>"
+        title="COMMUNICATE WITH CONFIDENCE<br /><b>Tia Smith</b>"
         author="Class of 2023"
-        content='<b>Most Rewarding Law School Experience:</b> Being a part of the <i>Iowa Law Review</i> was a significant part of my law school career. As a student writer and editor, I learned so much about the publication process and legal publications in general. It’s a great place to start getting used to working on a team, meeting important deadlines, and living up to expectations. I’m a big believer in learning through experience, and I can say the time I spent working on the journal has strengthened my writing skills and helped me prepare for my future career."<br>
+        content='<b>Most Rewarding Law School Experience:</b> "Being a part of the <i>Iowa Law Review</i> was a significant part of my law school career. As a student writer and editor, I learned so much about the publication process and legal publications in general. It’s a great place to start getting used to working on a team, meeting important deadlines, and living up to expectations. I’m a big believer in learning through experience, and I can say the time I spent working on the journal has strengthened my writing skills and helped me prepare for my future career."<br>
         <b>What’s Ahead:</b> Working as a staff attorney for the American Civil Liberties Union of Nevada.'
         class="card--stacked card--centered-left card--alignment-left card--padded"
         media_class="card__media--large card__media card__media"
@@ -206,9 +206,9 @@
       />
       <Card
         image="/images/viewbook/WEB-Head-100x667-Gokare.jpg"
-        title="Learn in an intimate collegial setting<br /><b>Apoorva Gokare</b>"
+        title="LAUNCH YOUR DREAM CAREER<br /><b>Apoorva Gokare</b>"
         author="Class of 2023"
-        content='<b>Most Rewarding Law School Experience:</b> I was born and raised in India, so starting law school in a different country was already overwhelming. On top of that, having to interview and look for jobs when I had no idea where to start made the process even more challenging. I didn’t have a U.S. transcript, so I struggled to explain my situation to employers. Thankfully, Iowa Law’s Career Services team helped me organize my application materials and practice sharing my story through mock interviews. I can say I made the right decision to come here because Iowa Law gave me the resources and confidence to launch my dream career in corporate law."<br>
+        content='<b>Most Rewarding Law School Experience:</b> "I was born and raised in India, so starting law school in a different country was already overwhelming. On top of that, having to interview and look for jobs when I had no idea where to start made the process even more challenging. I didn’t have a U.S. transcript, so I struggled to explain my situation to employers. Thankfully, Iowa Law’s Career Services team helped me organize my application materials and practice sharing my story through mock interviews. I can say I made the right decision to come here because Iowa Law gave me the resources and confidence to launch my dream career in corporate law."<br>
         <b>What’s Ahead:</b> Working as a full-time associate in commercial and corporate counseling at Morris Nichols Law Firm in Wilmington, Delaware.'
         class="card--stacked card--centered-left card--alignment-left card--padded"
         media_class="card__media--large card__media card__media"
@@ -229,7 +229,7 @@
   />
 
   <banner
-    image="images/viewbook/8.jpg"
+    image="images/viewbook/Drone.png"
     banner_size="large"
     banner_vertical_alignment="vertical-center"
     banner_horizontal_alignment="horizontal-center"
@@ -315,7 +315,7 @@ export default {
           headline: '50',
           headline_prefix: 'Top',
           headline_suffix: '',
-          stat_description: 'Go-To Law School, named by Law.com',
+          stat_description: 'Go-To Law School by Law.com',
           stat_content: 'Go to Law Schools ranks the top feeder schools for jobs in Big Law.',
         }
       ],
@@ -328,7 +328,7 @@ export default {
           stat_content: '',
         },
         {
-          headline: '20',
+          headline: '23',
           headline_prefix: '',
           headline_suffix: '%',
           stat_description: 'of the class of 2022 earned state or federal clerkships across the country',
@@ -374,7 +374,7 @@ export default {
           section_id: 'stats'
         },
         {
-          section_title: 'TAKE REAL ACTION AND MAKE REAL CHANGE',
+          section_title: 'TAKE REAL ACTION, MAKE REAL CHANGE',
           section_id: 'real'
         },
         {
