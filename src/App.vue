@@ -229,7 +229,7 @@
   />
 
   <banner
-    image="images/viewbook/Drone.png"
+    image="images/viewbook/Drone.jpg"
     banner_size="large"
     banner_vertical_alignment="vertical-center"
     banner_horizontal_alignment="horizontal-center"
