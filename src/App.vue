@@ -94,7 +94,7 @@
     grid_panel_first_column= 'grid-panel__column-image-left'
     grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
     grid_content_position= 'second'
-    grid_panel_content= '<p>Iowa Law boasts an experienced, student-centered faculty dedicated to the development of practice-ready lawyers. They bring extensive practical experience to the classroom, having clerked for federal judges and practiced law in government, business, and at private firms. Their varied backgrounds combined with our 8:1 student-to-faculty ratio offers a personalized approach to learning and a dynamic legal curriculum.</p>'
+    grid_panel_content= '<p>Iowa Law boasts an experienced, student-centered faculty dedicated to the development of practice-ready lawyers. They bring extensive practical experience to the classroom, having clerked for federal judges and practiced law in government, business, and private firms. Their varied backgrounds combined with our 8:1 student-to-faculty ratio offers a personalized approach to learning and a dynamic legal curriculum.</p>'
   />
 
   <div class="v-dots-scroll-spacer">
@@ -111,7 +111,7 @@
     grid_panel_first_column= 'grid-panel__column-content-left grid-panel__content'
     grid_panel_second_column= 'grid-panel__column-image-right'
     grid_content_position= 'first'
-    grid_panel_content= '<p>Iowa Law has long been at the forefront of legal writing education. We invest in full-time writing faculty with over 120 years of combined legal writing experience. Your first year will include small-section writing courses with personalized instruction, allowing you to refine your legal writing skills. In your second and third years, you’ll have countless opportunities to gain real-world writing experience to help you develop the confidence and skill set necessary to stand out in a competitive workforce.</p>'
+    grid_panel_content= '<p>Iowa Law has long been at the forefront of legal writing education. We invest in full-time writing faculty with over 120 years of combined legal writing experience. Your first year will include small-section writing courses with personalized instruction, allowing you to refine your legal writing skills. In your second and third years, you’ll have ample opportunities to gain real-world writing experience to help you develop the confidence and skill set necessary to stand out in a competitive workforce.</p>'
   />
 
   <div class="v-dots-scroll-spacer">
@@ -145,7 +145,7 @@
     grid_panel_first_column= 'grid-panel__column-content-left grid-panel__content'
     grid_panel_second_column= 'grid-panel__column-image-right'
     grid_content_position= 'first'
-    grid_panel_content= '<p>Iowa Law’s Career Services Office will help you align your skills and professional goals with unique opportunities around the world. From on-campus interviews to personalized assistance with your résumé and cover letter, you’ll have the tools to navigate a successful career path. Along with the support you’ll receive on campus, you’ll also be welcomed into a network of 10,700+ Iowa Law alumni who actively recruit current students and open doors to potential employers.</p>'
+    grid_panel_content= '<p>Iowa Law’s Career Services Office will help you align your skills and professional goals with unique opportunities around the world. From on-campus interviews to personalized assistance with your résumé and cover letter, you’ll have the tools to navigate a successful career path. Along with the support you’ll receive on campus, you’ll also be welcomed into a network of 11,000+ Iowa Law alumni who actively recruit current students and open doors to potential employers.</p>'
   />
 
   <div class="v-dots-scroll-spacer">
@@ -169,11 +169,11 @@
   <div class="grid--fourcol--25">
     <div class="list-container">
       <Card
-        image="/images/viewbook/WEB-Head-100x667-Goodenow.jpg"
-        title="Connect theory to practice<br /><b>Nick Goodenow</b>"
-        author="Class of 2023"
-        content='<b>Most Rewarding Law School Experience:</b> "Iowa Law has provided me with invaluable experiential learning opportunities, primarily through the Appellate Advocacy program. The program blends robust collaboration with a healthy amount of competition, which taught me how to develop complex legal arguments and expand how I think about advocacy. Working with real clients gave me a better understanding of what a meaningful and fulfilling career would look like. Most importantly, the program helped me build a network of valuable connections and prepare for my future career."<br>
-        <b>What’s Ahead:</b> Serving as a public defender for the state of Colorado.'
+        image="/images/viewbook/WEB-Head-100x667-Wendel.jpg"
+        title="Connect theory to practice<br /><b>Andrew Wendel</b>"
+        author="Class of 2024"
+        content='<b>Most Rewarding Law School Experience:</b> "At Iowa Law, I’ve had the privilege of immersing myself in invaluable experiential learning opportunities, particularly through the Legal Clinic. Here, it’s not just about mastering substantive law and trial procedures; it’s about honing essential legal practice skills that transcend the classroom. This hands-on experience lays a solid foundation for a seamless transition into the workforce, giving us the knowledge and capability to succeed even in unfamiliar terrain. Beyond skill development, my time in the clinic has helped me build a network of connections and solidified my dreams of becoming a defense attorney."<br>
+        <b>What’s Ahead:</b> Clerking for the Iowa Supreme Court for Justice Matthew McDermott in Des Moines, Iowa.'
         class="card--stacked card--centered-left card--alignment-left card--padded"
         media_class="card__media--large card__media card__media"
         img_class=""
@@ -185,7 +185,7 @@
         title="BUILD VALUABLE CONNECTIONS<br /><b>Eyasu Yirdaw</b>"
         author="Class of 2024"
         content='<b>Most Rewarding Law School Experience:</b> "Though law school can be a challenge, the relationships I’ve built at Iowa Law have made it extremely rewarding. That’s because the faculty are not just renowned academics—they’re friends, mentors, and so much more. They’re willing to go out of their way to help students succeed and engage in meaningful conversations beyond office hours. I feel fortunate to receive one-on-one paper feedback from Labor Law Professor César Rosado Marzán, talk about judicial clerkships with LAWR Professor Mary Ksobiech, and discuss future life goals with International Environmental Law Professor Jonathan Carlson."<br>
-        <b>What’s Ahead:</b> Working as a summer associate at Polsinelli Law Firm in Kansas City, Missouri.'
+        <b>What’s Ahead:</b> Clerking for Judge Eric G. Bruggink on the U.S. Court of Federal Claims before joining Polsinelli Law Firm.'
         class="card--stacked card--centered-left card--alignment-left card--padded"
         media_class="card__media--large card__media card__media"
         img_class=""
@@ -193,11 +193,11 @@
         headline_url_class="click-target"
       />
       <Card
-        image="/images/viewbook/WEB-Head-100x667-Smith.jpg"
-        title="COMMUNICATE WITH CONFIDENCE<br /><b>Tia Smith</b>"
-        author="Class of 2023"
-        content='<b>Most Rewarding Law School Experience:</b> "Being a part of the <i>Iowa Law Review</i> was a significant part of my law school career. As a student writer and editor, I learned so much about the publication process and legal publications in general. It’s a great place to start getting used to working on a team, meeting important deadlines, and living up to expectations. I’m a big believer in learning through experience, and I can say the time I spent working on the journal has strengthened my writing skills and helped me prepare for my future career."<br>
-        <b>What’s Ahead:</b> Working as a staff attorney for the American Civil Liberties Union of Nevada.'
+        image="/images/viewbook/WEB-Head-100x667-Crouch.jpg"
+        title="COMMUNICATE WITH CONFIDENCE<br /><b>Katrina Crouch</b>"
+        author="Class of 2024"
+        content='<b>Most Rewarding Law School Experience:</b> "The Writing and Academic Success Center has profoundly impacted my time at Iowa Law. Professor Anderson goes the extra mile to create a friendly and collaborative environment for students to get feedback and help, and I can’t thank her enough. Since I’ve started tutoring at the Center, my writing skills have improved drastically. As much as the students learn from me, I also learn from them. The knowledge and skills I’ve gained have been a direct translation to my summer legal work and my successful job search. I can now say I am confident in my abilities to make a difference in people’s lives."<br>
+        <b>What’s Ahead:</b> Working for Morgan and Morgan in Nashville, Tennessee, the number one personal injury firm in the United States.'
         class="card--stacked card--centered-left card--alignment-left card--padded"
         media_class="card__media--large card__media card__media"
         img_class=""
@@ -205,11 +205,11 @@
         headline_url_class="click-target"
       />
       <Card
-        image="/images/viewbook/WEB-Head-100x667-Gokare.jpg"
-        title="LAUNCH YOUR DREAM CAREER<br /><b>Apoorva Gokare</b>"
-        author="Class of 2023"
-        content='<b>Most Rewarding Law School Experience:</b> "I was born and raised in India, so starting law school in a different country was already overwhelming. On top of that, having to interview and look for jobs when I had no idea where to start made the process even more challenging. I didn’t have a U.S. transcript, so I struggled to explain my situation to employers. Thankfully, Iowa Law’s Career Services team helped me organize my application materials and practice sharing my story through mock interviews. I can say I made the right decision to come here because Iowa Law gave me the resources and confidence to launch my dream career in corporate law."<br>
-        <b>What’s Ahead:</b> Working as a full-time associate in commercial and corporate counseling at Morris Nichols Law Firm in Wilmington, Delaware.'
+        image="/images/viewbook/WEB-Head-100x667-Sandoval.jpg"
+        title="LAUNCH YOUR DREAM CAREER<br /><b>Anelisa Gamiz Sandoval</b>"
+        author="Class of 2024"
+        content='<b>Most Rewarding Law School Experience:</b> "Iowa Law’s Career Services team was extremely helpful in securing my future job.  I attended a panel they organized for Southwest recruitment, which proved instrumental in my job search. The panel, comprised of Iowa Law alumni, facilitated networking opportunities that made it easy to build connections with industry professionals. One of the connections I made ultimately encouraged me to apply when the firm I had my eyes on was hiring. Without the guidance I received from Iowa Law’s Career Services and alumni network, landing my dream job in Big Law would have been far more challenging."<br>
+        <b>What’s Ahead:</b> Working at Snell and Wilmer in Phoenix, Arizona as a public defender.'
         class="card--stacked card--centered-left card--alignment-left card--padded"
         media_class="card__media--large card__media card__media"
         img_class=""
@@ -301,27 +301,27 @@ export default {
           headline: 'Best',
           headline_prefix: '',
           headline_suffix: '',
-          stat_description: 'VALUE LAW SCHOOL FOR 9 CONSECUTIVE YEARS BY THE <i>NATIONAL JURIST</i>',
+          stat_description: 'VALUE LAW SCHOOL FOR 10 CONSECUTIVE YEARS BY THE <i>NATIONAL JURIST</i>',
           stat_content: 'Based on tuition costs, bar passage rates, and employment success.',
         },
         {
-          headline: '98',
+          headline: '99',
           headline_prefix: '',
           headline_suffix: '%',
           stat_description: 'JOB PLACEMENT RATE WITHIN 10 MONTHS OF GRADUATION',
           stat_content: 'As reported to the ABA for the Class of 2022.',
         },
         {
-          headline: '50',
-          headline_prefix: 'Top',
+          headline: '35',
+          headline_prefix: '#',
           headline_suffix: '',
-          stat_description: 'Go-To Law School by Law.com',
+          stat_description: 'Go-To Law School for big law jobs by Law.com',
           stat_content: 'Go to Law Schools ranks the top feeder schools for jobs in Big Law.',
         }
       ],
       stats_2: [
         {
-          headline: '10,700',
+          headline: '11,000',
           headline_prefix: '',
           headline_suffix: '+',
           stat_description: 'ALUMNI IN ALL 50 STATES and 43 countries',
@@ -331,14 +331,14 @@ export default {
           headline: '23',
           headline_prefix: '',
           headline_suffix: '%',
-          stat_description: 'of the class of 2022 earned state or federal clerkships across the country',
+          stat_description: 'of the class of 2023 earned state or federal clerkships across the country',
           stat_content: '',
         },
         {
-          headline: '190',
+          headline: '200',
           headline_prefix: '',
           headline_suffix: '+',
-          stat_description: 'EMPLOYERS COME TO UI each year for on-campus interviews',
+          stat_description: 'EMPLOYERS HIRE THROUGH IOWA LAW RECRUITMENT PROGRAMS EACH YEAR',
           stat_content: '',
         }
       ],
