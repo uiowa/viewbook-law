@@ -309,14 +309,14 @@ export default {
           headline_prefix: '',
           headline_suffix: '%',
           stat_description: 'JOB PLACEMENT RATE WITHIN 10 MONTHS OF GRADUATION',
-          stat_content: 'As reported to the ABA for the Class of 2022.',
+          stat_content: 'As reported to the ABA for the Class of 2023.',
         },
         {
           headline: '35',
           headline_prefix: '#',
           headline_suffix: '',
           stat_description: 'Go-To Law School for big law jobs by Law.com',
-          stat_content: 'Go to Law Schools ranks the top feeder schools for jobs in Big Law.',
+          stat_content: 'Go-To Law Schools ranks the top feeder schools in the U.S. for jobs in Big Law.',
         }
       ],
       stats_2: [
@@ -324,7 +324,7 @@ export default {
           headline: '11,000',
           headline_prefix: '',
           headline_suffix: '+',
-          stat_description: 'ALUMNI IN ALL 50 STATES and 43 countries',
+          stat_description: 'ALUMNI IN ALL 50 STATES and 50 countries',
           stat_content: '',
         },
         {
