@@ -85,11 +85,11 @@
   </div>
 
   <grid-panel
-    link_url= 'https://law.uiowa.edu/faculty-and-scholarship'
+    link_url= 'https://law.uiowa.edu/faculty-and-scholarship/meet-faculty'
     image= '/images/viewbook/WEB-SMLR-2022_09_29-LAW-8046-TORTS-jatorner-0182.jpg'
     headline= 'Learn from expert legal scholars'
-    button_text= 'Meet Faculty'
-    button_link= 'https://law.uiowa.edu/faculty-and-scholarship'
+    button_text= 'Meet The Faculty'
+    button_link= 'https://law.uiowa.edu/faculty-and-scholarship/meet-faculty'
     grid_panel_type= 'grid-panel grid-panel--asymmetrical'
     grid_panel_first_column= 'grid-panel__column-image-left'
     grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
@@ -102,11 +102,11 @@
   </div>
 
   <grid-panel
-    link_url= 'https://law.uiowa.edu/experiential-learning/legal-writing'
+    link_url= 'https://law.uiowa.edu/iowa-jd/curriculum/legal-writing'
     image= 'images/viewbook/5.jpg'
     headline= 'Stand out with unmatched writing skills'
     button_text= 'Legal Writing'
-    button_link= 'https://law.uiowa.edu/experiential-learning/legal-writing'
+    button_link= 'https://law.uiowa.edu/iowa-jd/curriculum/legal-writing'
     grid_panel_type= 'grid-panel grid-panel--asymmetrical'
     grid_panel_first_column= 'grid-panel__column-content-left grid-panel__content'
     grid_panel_second_column= 'grid-panel__column-image-right'
@@ -119,16 +119,16 @@
   </div>
 
   <grid-panel
-    link_url= 'https://law.uiowa.edu/student-experience/student-life/iowa-city'
+    link_url= 'https://uicapture.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=93937a28-8aa9-4d47-a6e4-b2bc00fe8326&start=0'
     image= 'images/viewbook/6.jpg'
     headline= 'The Best College Town'
     button_text= 'Discover Iowa City'
-    button_link= 'https://law.uiowa.edu/student-experience/student-life/iowa-city'
+    button_link= 'https://uicapture.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=93937a28-8aa9-4d47-a6e4-b2bc00fe8326&start=0'
     grid_panel_type= 'grid-panel grid-panel--asymmetrical'
     grid_panel_first_column= 'grid-panel__column-image-left'
     grid_panel_second_column= 'grid-panel__column-content-right grid-panel__content'
     grid_content_position= 'second'
-    grid_panel_content= '<p>Iowa City is considered one of the best places to live in the country. With big-city amenities and the affordability of a small town, you’ll be surrounded by the best of both worlds. A vibrant downtown seamlessly blends with the heart of campus, where you’ll find over 100 restaurants, Big Ten athletics, and an ever-changing art scene within walking distance of the Boyd Law Building. With plenty of things to do and places to explore, something for everyone in Iowa City.</p>'
+    grid_panel_content= '<p>Iowa City is considered one of the best places to live in the country. With big-city amenities and the affordability of a small town, you’ll be surrounded by the best of both worlds. A vibrant downtown seamlessly blends with the heart of campus, where you’ll find over 100 restaurants, Big Ten athletics, and an ever-changing art scene within walking distance of the Boyd Law Building. With plenty of things to do and places to explore, there’s something for everyone in Iowa City.</p>'
   />
 
   <div class="v-dots-scroll-spacer">
@@ -136,11 +136,11 @@
   </div>
 
   <grid-panel
-    link_url= 'https://law.uiowa.edu/careers'
+    link_url= 'https://law.uiowa.edu/iowa-jd/careers'
     image= 'images/viewbook/7.jpg'
     headline= 'Career Advice that helps get you hired'
     button_text= 'Career Services'
-    button_link= 'https://law.uiowa.edu/careers'
+    button_link= 'https://law.uiowa.edu/iowa-jd/careers'
     grid_panel_type= 'grid-panel grid-panel--asymmetrical'
     grid_panel_first_column= 'grid-panel__column-content-left grid-panel__content'
     grid_panel_second_column= 'grid-panel__column-image-right'
@@ -184,7 +184,7 @@
         image="/images/viewbook/WEB-Head-100x667-Habeeb-Adekola.jpg"
         title="BUILD VALUABLE CONNECTIONS<br /><b>Habeeb Adekola</b>"
         author="Class of 2025"
-        content='<b>Most Rewarding Law School Experience:</b> One of the things that sets Iowa Law apart is how deeply invested the faculty are in our academic and professional success. The faculty aren’t distant or intimidating, they take time to know you and challenge you to reach your potential. Professors Crouse and Gaynor’s detailed feedback about my research and writing skills made a real difference during my summer job. Professor Miller’s advice about navigating Big Law helped me avoid a major mistake, and Professor Fisher-Page’s energy and teaching style genuinely make you look forward to class. Honestly, every professor I’ve worked with here has left their mark on me.”<br>
+        content='<b>Most Rewarding Law School Experience:</b> "One of the things that sets Iowa Law apart is how deeply invested the faculty are in our academic and professional success. The faculty aren’t distant or intimidating, they take time to know you and challenge you to reach your potential. Professors Crouse and Gaynor’s detailed feedback about my research and writing skills made a real difference during my summer job. Professor Miller’s advice about navigating Big Law helped me avoid a major mistake, and Professor Fisher-Page’s energy and teaching style genuinely make you look forward to class. Honestly, every professor I’ve worked with here has left their mark on me.”<br>
         <b>What’s Ahead:</b> Working for Alston & Bird in Dallas, Texas as a litigation associate.'
         class="card--stacked card--centered-left card--alignment-left card--padded"
         media_class="card__media--large card__media card__media"
@@ -236,8 +236,8 @@
     banner_classes=""
     banner_type="image"
     banner_overlay= "gradient-bottom"
-    banner_text='<p>Iowa Law is an ideal place to study law: small enough that your professors will know you well, yet large enough to be nationally renowned and a launchpad for opportunity. With an Iowa Law degree, you’ll be prepared to practice law anywhere around the world. From law firms and Fortune 100 companies to global nonprofits and government agencies, you’ll find that Iowa alumni aren’t just in Iowa, they’re everywhere Iowa Law is small enough for the faculty to know you well, yet large enough to be nationally renowned—this is your launchpad for opportunity. Consistently ranked among the top U.S. law schools for full-time job placement, Iowa Law will give you the knowledge, skills, and expertise needed to practice law anywhere in the United States and around the world. From law firms and Fortune 100 companies to global nonprofits and government agencies, Iowa Law alumni are everywhere.</p>'
-    banner_title='First Iowa <span>then anywhere</span>'
+    banner_text='<p>Iowa Law is small enough for the faculty to know you well, yet large enough to be nationally renowned—this is your launchpad for opportunity. Consistently ranked among the top U.S. law schools for full-time job placement, Iowa Law will give you the knowledge, skills, and expertise needed to practice law anywhere in the United States and around the world. From law firms and Fortune 100 companies to global nonprofits and government agencies, Iowa Law alumni are everywhere.</p>'
+    banner_title='First Iowa, <span>then anywhere</span>'
     banner_title_classes='headline headline--uppercase'
   />
 
@@ -313,8 +313,8 @@ export default {
         },
         {
           headline: '91',
-          headline_prefix: '%',
-          headline_suffix: '',
+          headline_prefix: '',
+          headline_suffix: '%',
           stat_description: 'BAR PASSAGE RATE AMONG FIRST TIME TEST-TAKERS ACROSS STATES',
           stat_content: 'As reported to the ABA for the Class of 2024.',
         }
@@ -360,7 +360,7 @@ export default {
         },
         {
           text: 'Request Info',
-          url: 'https://law.uiowa.edu/admissions/request-information',
+          url: 'https://forms.lsac-unite.org/6681/Information_Request_Form.html',
           item_class: 'bttn bttn--outline bttn--tertiary bttn--transparent bttn--caps bttn--connect'
         },
       ],
@@ -420,9 +420,9 @@ export default {
           icon_class: 'fab fa-linkedin'
         },
         {
-          text:  'Twitter',
-          url: 'https://twitter.com/IowaLawSchool',
-          icon_class: 'fab fa-twitter-square'
+          text:  'X',
+          url: 'https://x.com/IowaLawSchool',
+          icon_class: 'fab fa-square-x-twitter'
         },
         {
           text:  'YouTube',
