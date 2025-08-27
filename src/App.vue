@@ -169,7 +169,7 @@
   <div class="grid--fourcol--25">
     <div class="list-container">
       <Card
-        image="/images/viewbook/WEB-Head-100x667-Elliott-Abromeit.jpg"
+        image="images/viewbook/WEB-Head-100x667-Elliott-Abromeit.jpg"
         title="Connect theory to practice<br /><b>Elliott Abromeit</b>"
         author="Class of 2025"
         content='<b>Most Rewarding Law School Experience:</b> “Iowa Law gave me the opportunity to engage in real-life practice through the legal clinic. Beyond just the starting point of learning the substantive law, working in the Federal Defense Legal Clinic allowed me to develop skills like client counseling, collaboration, and developing my professional identity. The legal clinic gave me a jump start in all the skills relevant to practice, but learning under the extremely capable clinical faculty also helped me realize that I have what it takes to stand up to high-pressure situations. The mentorship and experiential learning in the legal clinic showed me that I am ready to take on the responsibility of being a public defender.” <br/>
@@ -181,7 +181,7 @@
         headline_url_class="click-target"
       />
       <Card
-        image="/images/viewbook/WEB-Head-100x667-Habeeb-Adekola.jpg"
+        image="images/viewbook/WEB-Head-100x667-Habeeb-Adekola.jpg"
         title="BUILD VALUABLE CONNECTIONS<br /><b>Habeeb Adekola</b>"
         author="Class of 2025"
         content='<b>Most Rewarding Law School Experience:</b> "One of the things that sets Iowa Law apart is how deeply invested the faculty are in our academic and professional success. The faculty aren’t distant or intimidating, they take time to know you and challenge you to reach your potential. Professors Crouse and Gaynor’s detailed feedback about my research and writing skills made a real difference during my summer job. Professor Miller’s advice about navigating Big Law helped me avoid a major mistake, and Professor Fisher-Page’s energy and teaching style genuinely make you look forward to class. Honestly, every professor I’ve worked with here has left their mark on me.”<br>
@@ -193,7 +193,7 @@
         headline_url_class="click-target"
       />
       <Card
-        image="/images/viewbook/WEB-Head-100x667-Theresa-Eckel.jpg"
+        image="images/viewbook/WEB-Head-100x667-Theresa-Eckel.jpg"
         title="COMMUNICATE WITH CONFIDENCE<br /><b>Theresa Eckel</b>"
         author="Class of 2026"
         content='<b>Most Rewarding Law School Experience:</b> “The Iowa Law Writing Center has been such a joyful part of my law school experience. The Center’s services helped sharpen my legal research and writing skills, and now, as a tutor, I have the opportunity to accompany others as they develop and refine their legal papers. I have learned so much from my students, and it has been a gift to work alongside coworkers who are so kind and generous. Professor Dawn Barker Anderson is our selfless leader. Her commitment to excellence and joyful service to others is admirable and worthy of imitation. I feel lucky to know her and to be a part of this place.” <br>
@@ -205,7 +205,7 @@
         headline_url_class="click-target"
       />
       <Card
-        image="/images/viewbook/WEB-Head-100x667-Madison-Rush.jpg"
+        image="images/viewbook/WEB-Head-100x667-Madison-Rush.jpg"
         title="LAUNCH YOUR DREAM CAREER<br /><b>Madison Rush</b>"
         author="Class of 2025"
         content='<b>Most Rewarding Law School Experience:</b> “I went to law school not knowing about the opportunity to clerk, but Iowa Law’s Career Services Office made me aware of new possibilities. The Career Services Office encouraged me to apply for a judicial externship for my 1L summer, which became a foundational experience. In my 2L year, the school supported my attendance at the ABA Judicial Clerkship Program in Louisville, where I had the chance to network with judges and law students interested in the judiciary. These experiences were instrumental in preparing me for my eventual clerkship interview.”<br>
@@ -315,7 +315,7 @@ export default {
           headline: '91',
           headline_prefix: '',
           headline_suffix: '%',
-          stat_description: 'BAR PASSAGE RATE AMONG FIRST TIME TEST-TAKERS ACROSS STATES',
+          stat_description: 'BAR PASSAGE RATE AMONG FIRST TIME TEST-TAKERS ACROSS ALL STATES',
           stat_content: 'As reported to the ABA for the Class of 2024.',
         }
       ],
